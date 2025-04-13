@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "FastSans";
+  src: url(https://raw.githubusercontent.com/Born2Root/Fast-Font/main/Fast_Sans.ttf)
+    format('truetype');
+}
+
+@font-face {
+  font-family: "FastSerif";
+  src: url(https://raw.githubusercontent.com/Born2Root/Fast-Font/main/Fast_Serif.ttf)
+    format('truetype');
+}
+
+/* Only apply styles when extension is enabled */
+html.adhd-reader-enabled * {
+  font-family: "FastSans", sans-serif !important; /* Apply the custom font to all elements */
+}
+
+html.adhd-reader-enabled body.use-serif * {
+  font-family: "FastSerif", serif !important;
+}
+
+/* Optional: Emphasize important words using the Bionic method */
+html.adhd-reader-enabled b,
+html.adhd-reader-enabled strong {
+  font-weight: bold;
+}
+
+html.adhd-reader-enabled mark {
+  background-color: transparent;
+  color: #000; /* Optional: for better emphasis on important sections */
+}
