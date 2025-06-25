@@ -1,6 +1,6 @@
 # Privacy Policy for ADHD Reader Extension
 
-Last updated: [Current Date]
+Last updated: 25 June 2025
 
 ## Introduction
 
@@ -33,9 +33,10 @@ The only external interaction is:
 
 ## Data Storage
 
-- Font preferences are stored locally using Chrome's storage API
-- Settings are only saved in your browser
-- All data remains on your device
+- Some extension settings sync across your Chrome browsers when you're signed in
+- Some settings remain local to each device
+- All data is stored and synced using Chrome's built-in storage system
+- We never store or transmit any data through our servers
 
 ## Third-Party Access
 
