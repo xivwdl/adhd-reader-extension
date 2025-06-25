@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ADHD Reader - Settings</title>
+  <meta charset="UTF-8">
+  <style>
+    :root {
+      --background: #f8f9fa;
+      --foreground: #212529;
+      --muted-foreground: #6c757d;
+      --border: #dee2e6;
+      --card-background: #ffffff;
+      --primary: #0F172A;
+      --danger: #dc3545;
+      --radius: 0.5rem;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: var(--background);
+      color: var(--foreground);
+      padding: 2rem;
+    }
+
+    .container { max-width: 600px; margin: 0 auto; display: grid; gap: 1rem; }
+
+    .page-header { display: flex; align-items: center; gap: 1rem; justify-content: space-between; margin-bottom: 0.6rem; }
+    .page-header img { width: 40px; height: 40px; }
+    .page-header h1 { font-size: 24px; font-weight: bold; color: var(--primary); text-align: left; }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+      user-select: none;
+      cursor: pointer;
+      width: auto;
+      margin-bottom: 0;
+      border: none;
+      background: none;
+      box-shadow: none;
+    }
+    .button-primary {
+      background: transparent;
+      color: var(--muted-foreground);
+      border: 1px solid var(--muted-foreground);
+      border-radius: 8px;
+      font-size: 14px;
+      height: 40px;
+      padding: 0 1rem;
+      box-shadow: none;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+    .button-primary:hover {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+      opacity: 1;
+      text-decoration: none;
+    }
+    .button-primary:focus-visible {
+      outline: 2px solid #0F172A;
+      outline-offset: 2px;
+    }
+    .button-primary, .button-primary:hover, .button-primary:visited {
+      text-decoration: none;
+    }
+
+    .settings-card { background-color: var(--card-background); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; }
+    .settings-card h2 { font-size: 18px; margin-bottom: 0.5rem; }
+
+    .settings-card.font-toggle-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+    .font-toggle-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: var(--primary);
+    }
+    .font-toggle-switch {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .font-toggle-label { font-size: 14px; color: var(--muted-foreground); transition: color 0.2s; }
+    .font-toggle-label.is-active { color: var(--primary); font-weight: bold; }
+    .switch { position: relative; display: inline-block; width: 48px; height: 26px; }
+    .switch input { opacity: 0; width: 0; height: 0; }
+    .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: var(--primary); border-radius: 26px; transition: .4s; }
+    .slider:before { position: absolute; content: ""; height: 20px; width: 20px; left: 3px; bottom: 3px; background-color: white; transition: .4s; border-radius: 50%; }
+    input:checked + .slider { background-color: var(--primary); }
+    input:checked + .slider:before { transform: translateX(22px); }
+
+    #disabled-sites-list { list-style-type: none; }
+    #disabled-sites-list li { display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 0.25rem; font-size: 14px; border-bottom: 1px solid #f0f0f0; }
+    #disabled-sites-list li:last-child { border-bottom: none; }
+    .remove-btn { background: none; border: none; cursor: pointer; display: flex; padding: 0.25rem; border-radius: 50%; width: 34px; height: 34px; align-items: center; justify-content: center; }
+    
+    .icon-display { display: inline-block; width: 28px; height: 28px; background-color: var(--muted-foreground); transition: background-color 0.2s ease; mask-repeat: no-repeat; mask-position: center; mask-size: contain; }
+    .icon-trash { mask-image: url(icons/trash.svg); }
+    .remove-btn:hover .icon-display { background-color: var(--danger); }
+    
+    .empty-message { text-align: center; color: var(--muted-foreground); padding: 2rem 0; font-size: 14px; }
+
+    .settings-card.sites-card { padding-bottom: 0.5rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="page-header">
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <img src="icons/icon128.png" alt="ADHD Reader Icon">
+        <h1>ADHD Reader Settings</h1>
+      </div>
+      <a href="https://chromewebstore.google.com/detail/adhd-reader/bigkololejnhhbgflfoeeoeaoofnhlkp/reviews" target="_blank" rel="noopener noreferrer" class="button button-primary">★ Review</a>
+    </header>
+    <div class="settings-card font-toggle-card">
+      <span class="font-toggle-title">Font Style</span>
+      <div class="font-toggle-switch">
+        <span id="font-sans-label" class="font-toggle-label">Sans Serif</span>
+        <label class="switch">
+          <input type="checkbox" id="font-type-toggle">
+          <span class="slider"></span>
+        </label>
+        <span id="font-serif-label" class="font-toggle-label">Serif</span>
+      </div>
+    </div>
+    <div class="settings-card sites-card">
+      <h2>Disabled on websites</h2>
+      <ul id="disabled-sites-list"></ul>
+      <p id="empty-message" class="empty-message" style="display: none;">The list is empty.</p>
+    </div>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html> 

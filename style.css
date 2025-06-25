@@ -11,11 +11,11 @@
 }
 
 /* Only apply styles when extension is enabled */
-html.adhd-reader-enabled * {
-  font-family: "FastSans", sans-serif !important; /* Apply the custom font to all elements */
+html.adhd-reader-enabled *:not(i):not(code):not(pre):not(kbd):not(span[class*="icon"]):not(i[class*="icon"]):not(svg *) {
+  font-family: "FastSans", sans-serif !important;
 }
 
-html.adhd-reader-enabled body.use-serif * {
+html.adhd-reader-enabled body.use-serif *:not(i):not(code):not(pre):not(kbd):not(span[class*="icon"]):not(i[class*="icon"]):not(svg *) {
   font-family: "FastSerif", serif !important;
 }
 

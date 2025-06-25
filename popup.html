@@ -26,21 +26,56 @@
       font-family: 'Arial', sans-serif;
       background-color: #f8f9fa;
       color: hsl(var(--foreground));
-      width: 250px;
+      width: 270px;
       padding: 16px;
     }
 
-    h1 {
-      font-size: 16px;
-      margin-bottom: 16px;
-      text-align: center;
+    .popup-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+    }
+
+    .header-title {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .header-title span {
+      font-size: 18px;
+      font-weight: bold;
       color: hsl(var(--primary));
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      margin-right: -4px;
+    }
+
+    .icon-button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      transition: background-color 0.2s ease;
+    }
+    
+    .icon-button.is-disabled {
+      opacity: 0.5;
     }
 
     .form-group {
       display: flex;
-      flex-direction: column;
-      margin-bottom: 16px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
       gap: 8px;
     }
 
@@ -49,199 +84,152 @@
       font-weight: 500;
     }
 
-    /* Dropdown styles */
-    .dropdown {
-      position: relative;
-      display: inline-block;
-      width: 100%;
-    }
-
-    .dropdown-trigger {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-      padding: 0.5rem 0.75rem;
-      background-color: white;
-      border: 1px solid hsl(var(--border));
-      border-radius: var(--radius);
-      font-size: 0.875rem;
-      cursor: pointer;
-      transition: all 0.2s ease;
-      user-select: none;
-      text-align: left;
-      height: 2.5rem;
-      color: hsl(var(--primary));
-    }
-
-    .dropdown-trigger:hover {
-      border-color: hsl(var(--primary));
-    }
-
-    .dropdown-content {
-      position: absolute;
-      top: calc(100% + 0.25rem);
-      left: 0;
-      width: 100%;
-      background-color: white;
-      border: 1px solid hsl(var(--border));
-      border-radius: var(--radius);
-      overflow: hidden;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-      z-index: 10;
-      display: none;
-    }
-
-    .dropdown.open .dropdown-content {
-      display: block;
-    }
-
-    .dropdown-item {
-      padding: 0.5rem 0.75rem;
-      font-size: 0.875rem;
-      cursor: pointer;
-      transition: background-color 0.2s ease;
-      display: flex;
-      align-items: center;
-      color: hsl(var(--primary));
-    }
-
-    .dropdown-item:hover,
-    .dropdown-item.active:hover {
-      background-color: hsl(var(--muted));
-    }
-
-    .dropdown-item.active {
-      background-color: transparent;
-    }
-
-    .dropdown-item-icon {
-      margin-right: 0.5rem;
-      opacity: 0;
-      width: 16px;
-      height: 16px;
-      stroke: hsl(var(--primary));
-    }
-
-    .dropdown-item.active .dropdown-item-icon {
-      opacity: 1;
-    }
-
-    .dropdown-chevron {
-      height: 16px;
-      width: 16px;
-      transition: transform 0.2s ease;
-      stroke: hsl(var(--primary));
-    }
-
-    .dropdown.open .dropdown-chevron {
-      transform: rotate(180deg);
-    }
-
     .note {
       font-size: 12px;
       color: hsl(var(--muted-foreground));
-      margin-top: 16px;
       text-align: center;
-    }
-
-    /* Стили для кнопок */
-    .button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: var(--radius);
-      font-weight: 500;
-      font-size: 0.875rem;
-      height: 2.5rem;
-      padding: 0 1rem;
-      white-space: nowrap;
-      transition: all 0.2s ease;
-      user-select: none;
-      cursor: pointer;
-      width: 100%;
-      margin-bottom: 8px;
-    }
-
-    /* Первичная кнопка */
-    .button-primary {
-      background-color: hsl(var(--primary));
-      color: hsl(var(--primary-foreground));
-      border: 1px solid hsl(var(--primary));
-    }
-
-    .button-primary:hover {
-      opacity: 0.9;
-    }
-
-    .button-primary:focus-visible {
-      outline: 2px solid hsl(var(--primary));
-      outline-offset: 2px;
-    }
-    
-    /* Disabled button style - now same as primary */
-    .button-disabled {
-      background-color: hsl(var(--primary));
-      color: hsl(var(--primary-foreground));
-      border: 1px solid hsl(var(--primary));
+      margin-bottom: 62px; 
     }
 
     .footer {
       font-size: 12px;
       color: hsl(var(--muted-foreground));
       margin-top: 16px;
-      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      gap: 8px;
     }
-
     .footer a {
       color: inherit;
       text-decoration: none;
       transition: color 0.2s ease;
+      white-space: nowrap;
+    }
+    .footer a[href*="donationalerts"]:hover {
+      color: hsl(var(--primary));
+    }
+    .footer a[href*="d1ma.xyz"]:hover {
+      color: #00e13f;
     }
 
-    .footer a:hover {
-      color: #00e13f;
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 48px;
+      height: 26px;
+    }
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: .4s;
+      border-radius: 26px;
+    }
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      transition: .4s;
+      border-radius: 50%;
+    }
+    input:checked + .slider {
+      background-color: hsl(var(--primary));
+    }
+    input:checked + .slider:before {
+      transform: translateX(22px);
+    }
+
+    .icon-display {
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      background-color: hsl(var(--muted-foreground)); 
+      transition: background-color 0.2s ease;
+      mask-repeat: no-repeat;
+      mask-position: center;
+      mask-size: contain;
+    }
+
+    .icon-button:hover .icon-display,
+    .icon-button:focus-visible .icon-display {
+      background-color: hsl(var(--primary));
+    }
+
+    .icon-gear {
+      mask-image: url(icons/gear.svg);
+    }
+    .icon-pause {
+      mask-image: url(icons/pause-circle.svg);
+    }
+    .icon-play {
+      mask-image: url(icons/play-circle.svg);
+    }
+    
+    #current-site {
+      text-align: center;
+      font-size: 14px;
+      color: hsl(var(--primary));
+      font-weight: bold;
+      margin-top: 68px;
+      margin-bottom: 6px; 
+      transition: opacity 0.2s;
+    }
+    #current-site.is-disabled {
+      opacity: 0.5;
+      pointer-events: none;
     }
   </style>
 </head>
 <body>
-  <h1>ADHD Reader</h1>
-  
-  <button id="toggle-extension" class="button button-primary">Disable Extension</button>
-  
-  <div class="form-group">
-    <div class="dropdown" id="font-dropdown">
-      <button class="dropdown-trigger" id="dropdown-trigger">
-        <span id="selected-font">Sans Serif</span>
-        <svg class="dropdown-chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <polyline points="6 9 12 15 18 9"></polyline>
-        </svg>
+  <div class="popup-header">
+    <div class="header-title">
+      <span>ADHD Reader</span>
+    </div>
+    <div class="header-actions">
+      <button id="global-toggle-btn" class="icon-button">
+        <span id="global-toggle-icon" class="icon-display"></span>
       </button>
-      <div class="dropdown-content">
-        <div class="dropdown-item" data-value="sans">
-          <svg class="dropdown-item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
-          <span>Sans Serif</span>
-        </div>
-        <div class="dropdown-item" data-value="serif">
-          <svg class="dropdown-item-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
-          <span>Serif</span>
-        </div>
-      </div>
+      <button id="settings-btn" class="icon-button">
+        <span class="icon-display icon-gear"></span>
+      </button>
     </div>
   </div>
-  
+
+  <div id="current-site"></div>
   <div class="note">
-    If something isn't working, please refresh the page and try again
+    If something isn't working, please <br>refresh the page and try again
   </div>
   
+
+  <div id="main-controls">
+    <div class="form-group">
+      <span class="form-label" id="site-status-label">Extension is enabled <br> on this website</span>
+      <label class="switch">
+        <input type="checkbox" id="site-active-toggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </div>
+
   <div class="footer">
-    Made by <a href="https://d1ma.xyz" target="_blank">d1ma.xyz</a>
+    <a href="https://www.donationalerts.com/r/d111ma" target="_blank">Buy me a coffee :)</a>
+    <a href="https://d1ma.xyz" target="_blank">d1ma</a>
   </div>
-  
   <script src="popup.js"></script>
 </body>
 </html> 

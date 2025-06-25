@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "__MSG_appName__",
-  "version": "1.0",
+  "version": "2.0",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
   "icons": {
@@ -30,5 +30,6 @@
     }
   ],
   "permissions": ["activeTab", "storage"],
-  "host_permissions": ["http://*/*", "https://*/*"]
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "options_page": "options.html"
 }
