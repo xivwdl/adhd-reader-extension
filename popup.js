@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const globalToggleIcon = document.getElementById('global-toggle-icon');
   const siteBlock = document.getElementById('current-site');
   const siteStatusLabel = document.getElementById('site-status-label');
+  const note = document.querySelector('.note');
 
   let isEnabled = true;
 
@@ -30,6 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     if (siteBlock) {
       siteBlock.classList.toggle('is-disabled', !isEnabled);
+    }
+    if (note) {
+      note.classList.toggle('is-disabled', !isEnabled);
     }
   }
 
