@@ -5,15 +5,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const fontToggle = document.getElementById('font-type-toggle');
   const sansLabel = document.getElementById('font-sans-label');
   const serifLabel = document.getElementById('font-serif-label');
+  const listModeToggle = document.getElementById('list-mode-toggle');
+  const blacklistLabel = document.getElementById('blacklist-label');
+  const whitelistLabel = document.getElementById('whitelist-label');
+  const siteListTitle = document.getElementById('site-list-title');
 
   // --- Functions ---
-  function renderSites(disabledSites) {
+  function renderSites(siteList) {
     sitesList.innerHTML = '';
-    if (disabledSites && disabledSites.length > 0) {
+    if (siteList && siteList.length > 0) {
       emptyMessage.style.display = 'none';
-      disabledSites.forEach(site => {
+      siteList.forEach(site => {
         const listItem = document.createElement('li');
-        // Create a link
         const link = document.createElement('a');
         link.href = site.startsWith('http') ? site : 'https://' + site;
         link.textContent = site;
@@ -23,13 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
         link.style.overflowWrap = 'anywhere';
         link.style.color = 'inherit';
         link.style.textDecoration = 'underline';
-        // Remove button
         const removeButton = document.createElement('button');
         removeButton.className = 'remove-btn';
         removeButton.innerHTML = `<span class="icon-display icon-trash"></span>`;
         removeButton.onclick = () => {
-          const updatedSites = disabledSites.filter(s => s !== site);
-          chrome.storage.sync.set({ disabledSites: updatedSites });
+          const updatedSites = siteList.filter(s => s !== site);
+          chrome.storage.sync.set({ siteList: updatedSites });
         };
         listItem.appendChild(link);
         listItem.appendChild(removeButton);
@@ -47,10 +49,23 @@ document.addEventListener('DOMContentLoaded', () => {
     serifLabel.classList.toggle('is-active', isSerif);
   }
 
-  // --- Initial Load ---
-  chrome.storage.sync.get(['disabledSites', 'fontType'], (data) => {
-    renderSites(data.disabledSites || []);
+  function updateListModeUI(listMode) {
+    const isWhitelist = listMode === 'whitelist';
+    listModeToggle.checked = isWhitelist;
+    blacklistLabel.classList.toggle('is-active', !isWhitelist);
+    whitelistLabel.classList.toggle('is-active', isWhitelist);
+    siteListTitle.textContent = isWhitelist ? 'List of enabled sites' : 'List of disabled sites';
+  }
+
+  function renderPage(data) {
+    renderSites(data.siteList || []);
     updateFontToggleUI(data.fontType || 'sans');
+    updateListModeUI(data.listMode || 'blacklist');
+  }
+
+  // --- Initial Load ---
+  chrome.storage.sync.get(['siteList', 'fontType', 'listMode'], (data) => {
+    renderPage(data);
   });
 
   // --- Event Listeners ---
@@ -59,14 +74,19 @@ document.addEventListener('DOMContentLoaded', () => {
     chrome.storage.sync.set({ fontType: newFontType });
   });
 
+  listModeToggle.addEventListener('change', (event) => {
+    const newMode = event.target.checked ? 'whitelist' : 'blacklist';
+    chrome.storage.sync.set({ listMode: newMode });
+  });
+
   // --- Storage Change Listener ---
   chrome.storage.onChanged.addListener((changes, namespace) => {
     if (namespace === 'sync') {
-      if (changes.disabledSites) {
-        renderSites(changes.disabledSites.newValue || []);
-      }
-      if (changes.fontType) {
-        updateFontToggleUI(changes.fontType.newValue);
+      // If any of the relevant settings changed, re-render the page with fresh data.
+      if (changes.siteList || changes.fontType || changes.listMode) {
+        chrome.storage.sync.get(['siteList', 'fontType', 'listMode'], (data) => {
+          renderPage(data);
+        });
       }
     }
   });

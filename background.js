@@ -8,9 +8,15 @@ chrome.runtime.onInstalled.addListener(() => {
   });
   
   // 'fontType' state remains SYNCED
-  chrome.storage.sync.get(['fontType'], (result) => {
+  chrome.storage.sync.get(['fontType', 'listMode', 'siteList'], (result) => {
     if (result.fontType === undefined) {
       chrome.storage.sync.set({ fontType: 'sans' });
+    }
+    if (result.listMode === undefined) {
+      chrome.storage.sync.set({ listMode: 'blacklist' });
+    }
+    if (!Array.isArray(result.siteList)) {
+      chrome.storage.sync.set({ siteList: [] });
     }
   });
 });

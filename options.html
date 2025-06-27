@@ -121,9 +121,9 @@
     <header class="page-header">
       <div style="display: flex; align-items: center; gap: 0.75rem;">
         <img src="icons/icon128.png" alt="ADHD Reader Icon">
-        <h1>ADHD Reader Settings</h1>
+        <h1>Settings</h1>
       </div>
-      <a href="https://chromewebstore.google.com/detail/adhd-reader/bigkololejnhhbgflfoeeoeaoofnhlkp/reviews" target="_blank" rel="noopener noreferrer" class="button button-primary">★ Review</a>
+      <a href="https://chromewebstore.google.com/detail/adhd-reader/bigkololejnhhbgflfoeeoeaoofnhlkp/reviews" target="_blank" rel="noopener noreferrer" class="button button-primary">★ Leave a review</a>
     </header>
     <div class="settings-card font-toggle-card">
       <span class="font-toggle-title">Font Style</span>
@@ -136,8 +136,29 @@
         <span id="font-serif-label" class="font-toggle-label">Serif</span>
       </div>
     </div>
+    <!-- List Mode Toggle Card -->
+    <div class="settings-card" style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start; justify-content: center;">
+      <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; gap: 1.5rem;">
+        <span class="font-toggle-title">List Mode</span>
+        <div class="font-toggle-switch">
+          <span id="blacklist-label" class="font-toggle-label">Blacklist</span>
+          <label class="switch">
+            <input type="checkbox" id="list-mode-toggle">
+            <span class="slider"></span>
+          </label>
+          <span id="whitelist-label" class="font-toggle-label">Whitelist</span>
+        </div>
+      </div>
+      <div class="font-toggle-label" style="font-size: 13px; color: var(--muted-foreground); margin-top: 0.1rem;">
+        <span>
+          Choose mode where ADHD Reader works:<br>
+          <b>• Blacklist</b> — everywhere except listed sites<br>
+          <b>• Whitelist</b> — only on listed sites
+        </span>
+      </div>
+    </div>
     <div class="settings-card sites-card">
-      <h2>Disabled on websites</h2>
+      <h2 id="site-list-title">Disabled on websites</h2>
       <ul id="disabled-sites-list"></ul>
       <p id="empty-message" class="empty-message" style="display: none;">The list is empty.</p>
     </div>

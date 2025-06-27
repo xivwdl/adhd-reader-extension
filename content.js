@@ -3,20 +3,24 @@ function run() {
   chrome.storage.local.get(['enabled'], (localData) => {
     const isGloballyEnabled = localData.enabled !== false;
     
-    chrome.storage.sync.get(['disabledSites'], (syncData) => {
-      const disabledSites = syncData.disabledSites || [];
-    const currentHost = window.location.hostname;
-
-    if (!isGloballyEnabled || disabledSites.includes(currentHost)) {
-      // If extension is disabled or site is in the list, do nothing.
-      // Make sure classes are removed in case they were added before the check.
-      document.documentElement.classList.remove('adhd-reader-enabled');
-      document.body.classList.remove('use-serif');
-      return;
-    }
-
-    // If everything is okay, run the main logic
-    init();
+    chrome.storage.sync.get(['listMode', 'siteList'], (syncData) => {
+      const listMode = syncData.listMode || 'blacklist';
+      const siteList = Array.isArray(syncData.siteList) ? syncData.siteList : [];
+      const currentHost = window.location.hostname;
+      const inList = siteList.includes(currentHost);
+      let shouldEnable = false;
+      if (listMode === 'blacklist') {
+        shouldEnable = isGloballyEnabled && !inList;
+      } else if (listMode === 'whitelist') {
+        shouldEnable = isGloballyEnabled && inList;
+      }
+      if (!shouldEnable) {
+        document.documentElement.classList.remove('adhd-reader-enabled');
+        document.body.classList.remove('use-serif');
+        return;
+      }
+      // If everything is okay, run the main logic
+      init();
     });
   });
 }

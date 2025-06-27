@@ -69,32 +69,50 @@ document.addEventListener('DOMContentLoaded', function() {
     chrome.runtime.openOptionsPage();
   });
 
-  // --- Site-specific Blacklist Logic (Inverted) ---
+  // --- Site-specific Blacklist/Whitelist Logic ---
   chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
     if (tabs[0] && tabs[0].url && tabs[0].url.startsWith('http')) {
       const currentHost = new URL(tabs[0].url).hostname;
       
-      chrome.storage.sync.get('disabledSites', (data) => {
-        const sites = data.disabledSites || [];
-        const isSiteDisabled = sites.includes(currentHost);
-        
-        siteActiveToggle.checked = !isSiteDisabled;
-        updateSiteStatusLabel(!isSiteDisabled);
+      chrome.storage.sync.get(['listMode', 'siteList'], (data) => {
+        const listMode = data.listMode || 'blacklist';
+        const siteList = Array.isArray(data.siteList) ? data.siteList : [];
+        const inList = siteList.includes(currentHost);
+        let isActive;
+        if (listMode === 'blacklist') {
+          isActive = !inList;
+        } else {
+          isActive = inList;
+        }
+        siteActiveToggle.checked = isActive;
+        updateSiteStatusLabel(isActive);
       });
 
       siteActiveToggle.addEventListener('change', function() {
-        chrome.storage.sync.get('disabledSites', (data) => {
-          let sites = data.disabledSites || [];
-          
-          if (!this.checked) {
-            if (!sites.includes(currentHost)) sites.push(currentHost);
+        chrome.storage.sync.get(['listMode', 'siteList'], (data) => {
+          const listMode = data.listMode || 'blacklist';
+          let siteList = Array.isArray(data.siteList) ? data.siteList : [];
+          const inList = siteList.includes(currentHost);
+          let shouldAdd = false;
+          if (listMode === 'blacklist') {
+            shouldAdd = !this.checked; // If disabling, add to list
           } else {
-            sites = sites.filter(host => host !== currentHost);
+            shouldAdd = this.checked; // If enabling, add to list
           }
-          
-          chrome.storage.sync.set({ disabledSites: sites }, () => {
+          if (shouldAdd && !inList) {
+            siteList.push(currentHost);
+          } else if (!shouldAdd && inList) {
+            siteList = siteList.filter(host => host !== currentHost);
+          }
+          chrome.storage.sync.set({ siteList }, () => {
             chrome.tabs.reload(tabs[0].id);
-            updateSiteStatusLabel(!sites.includes(currentHost));
+            let isActive;
+            if (listMode === 'blacklist') {
+              isActive = !siteList.includes(currentHost);
+            } else {
+              isActive = siteList.includes(currentHost);
+            }
+            updateSiteStatusLabel(isActive);
           });
         });
       });
