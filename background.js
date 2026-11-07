@@ -1,5 +1,5 @@
 // Initialize default state
-chrome.runtime.onInstalled.addListener(() => {
+chrome.runtime.onInstalled.addListener((details) => {
   // 'enabled' state is stored LOCALLY
   chrome.storage.local.get(['enabled'], (result) => {
     if (result.enabled === undefined) {
@@ -19,6 +19,9 @@ chrome.runtime.onInstalled.addListener(() => {
       chrome.storage.sync.set({ siteList: [] });
     }
   });
+  if (details.reason === 'install') {
+    chrome.tabs.create({ url: chrome.runtime.getURL('welcome.html') });
+  }
 });
 
 // Listen for messages from popup or content scripts

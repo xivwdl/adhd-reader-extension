@@ -1,122 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ADHD Reader - Settings</title>
+  <title data-i18n="ui_settings">Settings</title>
   <meta charset="UTF-8">
-  <style>
-    :root {
-      --background: #f8f9fa;
-      --foreground: #212529;
-      --muted-foreground: #6c757d;
-      --border: #dee2e6;
-      --card-background: #ffffff;
-      --primary: #0F172A;
-      --danger: #dc3545;
-      --radius: 0.5rem;
-    }
-
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: var(--background);
-      color: var(--foreground);
-      padding: 2rem;
-    }
-
-    .container { max-width: 600px; margin: 0 auto; display: grid; gap: 1rem; }
-
-    .page-header { display: flex; align-items: center; gap: 1rem; justify-content: space-between; margin-bottom: 0.6rem; }
-    .page-header img { width: 40px; height: 40px; }
-    .page-header h1 { font-size: 24px; font-weight: bold; color: var(--primary); text-align: left; }
-    .settings-card { background-color: var(--card-background); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; }
-    .settings-card h2 { font-size: 18px; margin-bottom: 0.5rem; }
-
-    .settings-card.font-toggle-card {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1.5rem;
-    }
-    .font-toggle-title {
-      font-size: 18px;
-      font-weight: bold;
-      color: var(--primary);
-    }
-    .font-toggle-switch {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
-    .font-toggle-label { font-size: 14px; color: var(--muted-foreground); transition: color 0.2s; }
-    .font-toggle-label.is-active { color: var(--primary); font-weight: bold; }
-    .switch { position: relative; display: inline-block; width: 48px; height: 26px; }
-    .switch input { opacity: 0; width: 0; height: 0; }
-    .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: var(--primary); border-radius: 26px; transition: .4s; }
-    .slider:before { position: absolute; content: ""; height: 20px; width: 20px; left: 3px; bottom: 3px; background-color: white; transition: .4s; border-radius: 50%; }
-    input:checked + .slider { background-color: var(--primary); }
-    input:checked + .slider:before { transform: translateX(22px); }
-
-    #disabled-sites-list { list-style-type: none; }
-    #disabled-sites-list li { display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 0.25rem; font-size: 14px; border-bottom: 1px solid #f0f0f0; }
-    #disabled-sites-list li:last-child { border-bottom: none; }
-    .remove-btn { background: none; border: none; cursor: pointer; display: flex; padding: 0.25rem; border-radius: 50%; width: 34px; height: 34px; align-items: center; justify-content: center; }
-    
-    .icon-display { display: inline-block; width: 28px; height: 28px; background-color: var(--muted-foreground); transition: background-color 0.2s ease; mask-repeat: no-repeat; mask-position: center; mask-size: contain; }
-    .icon-trash { mask-image: url(icons/trash.svg); }
-    .remove-btn:hover .icon-display { background-color: var(--danger); }
-    
-    .empty-message { text-align: center; color: var(--muted-foreground); padding: 2rem 0; font-size: 14px; }
-
-    .settings-card.sites-card { padding-bottom: 0.5rem; }
-  </style>
+  <link rel="stylesheet" href="settings.css">
 </head>
 <body>
   <div class="container">
     <header class="page-header">
       <div style="display: flex; align-items: center; gap: 0.75rem;">
-        <img src="icons/icon128.png" alt="ADHD Reader Icon">
-        <h1>Settings</h1>
+        <img src="icons/icon128.png" alt="">
+        <h1 data-i18n="ui_settings">Settings</h1>
       </div>
     </header>
     <div class="settings-card font-toggle-card">
-      <span class="font-toggle-title">Font Style</span>
+      <span class="font-toggle-title" data-i18n="ui_font">Font Style</span>
       <div class="font-toggle-switch">
-        <span id="font-sans-label" class="font-toggle-label">Sans Serif</span>
+        <span id="font-sans-label" class="font-toggle-label" data-i18n="ui_sans">Sans Serif</span>
         <label class="switch">
-          <input type="checkbox" id="font-type-toggle">
+          <input type="checkbox" data-i18n-label="ui_font" id="font-type-toggle">
           <span class="slider"></span>
         </label>
-        <span id="font-serif-label" class="font-toggle-label">Serif</span>
+        <span id="font-serif-label" class="font-toggle-label" data-i18n="ui_serif">Serif</span>
       </div>
     </div>
     <!-- List Mode Toggle Card -->
     <div class="settings-card" style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start; justify-content: center;">
       <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; width: 100%; gap: 1rem;">
-        <span class="font-toggle-title">List Mode</span>
+        <span class="font-toggle-title" data-i18n="ui_mode">List Mode</span>
         <div class="font-toggle-switch">
-          <span id="blacklist-label" class="font-toggle-label">All sites except</span>
+          <span id="blacklist-label" class="font-toggle-label" data-i18n="ui_blacklist">All sites except</span>
           <label class="switch">
-            <input type="checkbox" id="list-mode-toggle">
+            <input type="checkbox" data-i18n-label="ui_mode" id="list-mode-toggle">
             <span class="slider"></span>
           </label>
-          <span id="whitelist-label" class="font-toggle-label">Only listed sites</span>
+          <span id="whitelist-label" class="font-toggle-label" data-i18n="ui_whitelist">Only listed sites</span>
         </div>
       </div>
       <div class="font-toggle-label" style="font-size: 13px; color: var(--muted-foreground); margin-top: 0.1rem;">
-        <span>
-          Choose mode where ADHD Reader works:<br>
-          <b>• All sites except</b> — disabled on the sites below<br>
-          <b>• Only listed sites</b> — enabled only on the sites below
-        </span>
+        <span id="mode-help"></span>
       </div>
     </div>
     <div class="settings-card sites-card">
       <h2 id="site-list-title">Disabled on websites</h2>
+      <form id="site-form" class="site-form"><input id="site-input" type="text" placeholder="example.com" data-i18n-label="ui_address" required><button type="submit" data-i18n="ui_add">Add</button></form>
+      <p id="site-status" class="status" role="alert"></p>
       <ul id="disabled-sites-list"></ul>
-      <p id="empty-message" class="empty-message" style="display: none;">The list is empty.</p>
+      <p id="empty-message" class="empty-message" style="display: none;" data-i18n="ui_empty">The list is empty.</p>
     </div>
   </div>
+  <script src="settings-common.js"></script>
   <script src="options.js"></script>
 </body>
 </html> 

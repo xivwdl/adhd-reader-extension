@@ -1,1 +1,71 @@
-{"appName":{"message":"ADHD Reader"},"appDesc":{"message":"ADHD Reader: Transforme páginas da web para melhor foco"},"storeDesc":{"message":"⚡ Transforme instantaneamente páginas da web em um ambiente de leitura livre de distrações, projetado especificamente para pessoas com TDAH e dislexia. Nossa interface minimalista melhora o foco e a compreensão de texto, tornando a leitura online mais fácil e eficiente.  \n\n✨ Por que escolher a Ferramenta de leitura amigável para TDAH?  \n🧠 Foco aprimorado para leitores com TDAH e dislexia  \n🎯 Tipografia especializada para melhor concentração  \n🔄 Transformação instantânea da fonte com um clique  \n🛡️ Privacidade total – todo o processamento ocorre localmente  \n🔍 Baseado em tecnologia de fontes comprovada por pesquisas  \n\n🚀 Principais recursos  \n• Alternância simples liga/desliga  \n• Seleção de fontes otimizada para leitores com TDAH  \n• Interface limpa e minimalista  \n• Zero coleta de dados  \n• Impacto leve no desempenho  \n\n💡 Como funciona  \nA Ferramenta de leitura amigável para TDAH usa a tecnologia FastFont do [Fast-Font](https://github.com/Born2Root/Fast-Font) para guiar seus olhos pelo texto com pontos de fixação artificiais. Essa abordagem revolucionária ajuda o leitor a focar apenas nas letras iniciais destacadas, enquanto o cérebro completa a palavra, aumentando significativamente a velocidade e a compreensão da leitura.  \n\nA extensão oferece duas opções de fonte:  \n- Sem serifa: Fonte limpa e moderna, sem elementos decorativos  \n- Serifada: Fonte tradicional com pequenos traços decorativos que auxiliam na distinção de letras  \n\n🔧 Como usar  \n1. Instale a extensão  \n2. Clique no ícone da extensão no navegador  \n3. Ative/desative quando necessário  \n4. Selecione seu tipo de fonte preferido  \n5. Experimente uma melhora imediata no foco de leitura   ❓ Perguntas Frequentes\n\nIsso é seguro?\n🔒 Totalmente! O ADHD Reader processa tudo localmente, sem enviar dados para servidores externos. Sua privacidade está completamente protegida.\n\nComo isso ajuda no TDAH?\n🧠 Pessoas com TDAH frequentemente têm dificuldades com processamento visual e manutenção do foco durante a leitura. Nossas fontes especializadas criam pontos de fixação artificiais que guiam os olhos pelo texto, reduzindo distrações e ajudando na concentração.\n\nFunciona em todos os sites?\n✅ Sim — O ADHD Reader funciona em praticamente todas as páginas da web, transformando o texto sem afetar a funcionalidade dos sites.\n\nAjuda na dislexia também?\n📚 Sim! Para muitas pessoas com dislexia, os pontos de fixação artificiais podem melhorar significativamente a compreensão e velocidade de leitura, oferecendo uma orientação visual clara no texto.\n\n🔬 A Ciência por Trás\nO ADHD Reader utiliza a tecnologia FastFont, que emprega dicas visuais para facilitar a leitura. Essa abordagem ajuda usuários com TDAH e dislexia a superar desafios comuns, como:\n\n- Perder o lugar no texto\n- Reler as mesmas linhas repetidamente\n- Distrair-se com textos ao redor\n\nComo funciona?\nDestacando letras iniciais e criando pontos de fixação artificiais, a FastFont direciona a atenção do leitor pelo texto, permitindo que o cérebro \"complete\" as palavras naturalmente. Isso resulta em  aumento da velocidade de leitura, melhoria na compreensão do texto. Para alguns usuários — até velocidades \"supersônicas\" de leitura!"}}
+{
+  "appName": {
+    "message": "ADHD Reader"
+  },
+  "appDesc": {
+    "message": "ADHD Reader: Transforme páginas da web para melhor foco"
+  },
+  "storeDesc": {
+    "message": "⚡ Transforme instantaneamente páginas da web em um ambiente de leitura livre de distrações, projetado especificamente para pessoas com TDAH e dislexia. Nossa interface minimalista melhora o foco e a compreensão de texto, tornando a leitura online mais fácil e eficiente.  \n\n✨ Por que escolher a Ferramenta de leitura amigável para TDAH?  \n🧠 Foco aprimorado para leitores com TDAH e dislexia  \n🎯 Tipografia especializada para melhor concentração  \n🔄 Transformação instantânea da fonte com um clique  \n🛡️ Privacidade total – todo o processamento ocorre localmente  \n🔍 Baseado em tecnologia de fontes comprovada por pesquisas  \n\n🚀 Principais recursos  \n• Alternância simples liga/desliga  \n• Seleção de fontes otimizada para leitores com TDAH  \n• Interface limpa e minimalista  \n• Zero coleta de dados  \n• Impacto leve no desempenho  \n\n💡 Como funciona  \nA Ferramenta de leitura amigável para TDAH usa a tecnologia FastFont do [Fast-Font](https://github.com/Born2Root/Fast-Font) para guiar seus olhos pelo texto com pontos de fixação artificiais. Essa abordagem revolucionária ajuda o leitor a focar apenas nas letras iniciais destacadas, enquanto o cérebro completa a palavra, aumentando significativamente a velocidade e a compreensão da leitura.  \n\nA extensão oferece duas opções de fonte:  \n- Sem serifa: Fonte limpa e moderna, sem elementos decorativos  \n- Serifada: Fonte tradicional com pequenos traços decorativos que auxiliam na distinção de letras  \n\n🔧 Como usar  \n1. Instale a extensão  \n2. Clique no ícone da extensão no navegador  \n3. Ative/desative quando necessário  \n4. Selecione seu tipo de fonte preferido  \n5. Experimente uma melhora imediata no foco de leitura   ❓ Perguntas Frequentes\n\nIsso é seguro?\n🔒 Totalmente! O ADHD Reader processa tudo localmente, sem enviar dados para servidores externos. Sua privacidade está completamente protegida.\n\nComo isso ajuda no TDAH?\n🧠 Pessoas com TDAH frequentemente têm dificuldades com processamento visual e manutenção do foco durante a leitura. Nossas fontes especializadas criam pontos de fixação artificiais que guiam os olhos pelo texto, reduzindo distrações e ajudando na concentração.\n\nFunciona em todos os sites?\n✅ Sim — O ADHD Reader funciona em praticamente todas as páginas da web, transformando o texto sem afetar a funcionalidade dos sites.\n\nAjuda na dislexia também?\n📚 Sim! Para muitas pessoas com dislexia, os pontos de fixação artificiais podem melhorar significativamente a compreensão e velocidade de leitura, oferecendo uma orientação visual clara no texto.\n\n🔬 A Ciência por Trás\nO ADHD Reader utiliza a tecnologia FastFont, que emprega dicas visuais para facilitar a leitura. Essa abordagem ajuda usuários com TDAH e dislexia a superar desafios comuns, como:\n\n- Perder o lugar no texto\n- Reler as mesmas linhas repetidamente\n- Distrair-se com textos ao redor\n\nComo funciona?\nDestacando letras iniciais e criando pontos de fixação artificiais, a FastFont direciona a atenção do leitor pelo texto, permitindo que o cérebro \"complete\" as palavras naturalmente. Isso resulta em  aumento da velocidade de leitura, melhoria na compreensão do texto. Para alguns usuários — até velocidades \"supersônicas\" de leitura!"
+  },
+  "ui_thanks": {
+    "message": "Obrigado por instalar o ADHD Reader!"
+  },
+  "ui_intro": {
+    "message": "O ADHD Reader altera as fontes dos sites para uma leitura mais confortável. Escolha a fonte e os sites onde deve funcionar."
+  },
+  "ui_settings": {
+    "message": "Configurações"
+  },
+  "ui_font": {
+    "message": "Estilo da fonte"
+  },
+  "ui_sans": {
+    "message": "Sem serifa"
+  },
+  "ui_serif": {
+    "message": "Com serifa"
+  },
+  "ui_mode": {
+    "message": "Onde deve funcionar?"
+  },
+  "ui_blacklist": {
+    "message": "Todos os sites exceto"
+  },
+  "ui_whitelist": {
+    "message": "Apenas os sites listados"
+  },
+  "ui_excluded": {
+    "message": "Sites com fontes originais"
+  },
+  "ui_included": {
+    "message": "Sites com ADHD Reader ativado"
+  },
+  "ui_empty": {
+    "message": "Nenhum site adicionado."
+  },
+  "ui_add": {
+    "message": "Adicionar"
+  },
+  "ui_address": {
+    "message": "Endereço do site"
+  },
+  "ui_invalid": {
+    "message": "Insira um endereço, como example.com."
+  },
+  "ui_duplicate": {
+    "message": "Este site já está na lista."
+  },
+  "ui_saveError": {
+    "message": "Não foi possível salvar. Tente novamente."
+  },
+  "ui_ready": {
+    "message": "Começar a ler"
+  },
+  "ui_later": {
+    "message": "Você pode alterar estas configurações a qualquer momento."
+  },
+  "ui_remove": {
+    "message": "Remover site"
+  }
+}

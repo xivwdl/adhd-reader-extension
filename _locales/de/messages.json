@@ -1,1 +1,71 @@
-{"appName":{"message":"ADHD Reader"},"appDesc":{"message":"ADHD Reader Webseiten für bessere Konzentration anpassen"},"storeDesc":{"message":"⚡ Transformieren Sie Webseiten sofort in eine störungsfreie Leseumgebung, die speziell für Menschen mit ADHS und Dyslexie konzipiert ist. Unsere minimale Benutzeroberfläche verbessert die Konzentration und das Textverständnis, wodurch das Online-Lesen einfacher und effizienter wird.\n\n✨ Warum wählen Sie den ADHD-Reader?\n🧠 Verbesserte Konzentration für ADHS- und dyslexische Leser\n🎯 Spezielle Schriftart für verbesserte Konzentration\n🔄 Instantane Schriftumwandlung mit einem Klick\n🛡️ Vollständige Privatsphäre - alle Verarbeitungen erfolgen lokal\n🔍 Basierend auf forschungsbasierten Schrifttechnologien\n\n🚀 Hauptfunktionen\n• Einfaches Ein-/Aus-Schalter\n• Schriftauswahl optimiert für ADHS-Leser\n• Saubere, minimale Benutzeroberfläche\n• Keine Datenerfassung\n• Geringer Leistungsimpact\n\n💡 Funktionsweise\nDer ADHD-Reader verwendet die FastFont-Technologie, um Ihre Augen durch den Text mit künstlichen Fixationspunkten zu führen. Dieser revolutionäre Ansatz hilft Lesern, sich nur auf die hervorgehobenen Anfangsbuchstaben zu konzentrieren, während das Gehirn das Wort vervollständigt, was die Lesegeschwindigkeit und das Verständnis erheblich verbessert.\n\nDie Erweiterung bietet zwei Schriftarten an:\n- Sans Serif: Saubere, moderne Schrift ohne dekorative Elemente\n- Serif: Traditionelle Schrift mit kleinen dekorativen Linien, die bei der Buchstabenunterscheidung helfen können\n\n🔧 Anleitung\n1. Installieren Sie die Erweiterung\n2. Klicken Sie auf das Erweiterungssymbol in Ihrem Browser\n3. Schalten Sie die Erweiterung ein oder aus, wie benötigt\n4. Wählen Sie Ihre bevorzugte Schriftart\n5. Erfahren Sie sofort verbesserte Lesekonzentration\n\nHinweis: Die ADHS-Lese-App wurde speziell für Menschen mit ADHS und Dyslexie entwickelt, um die Lesekonzentration und das Textverständnis zu verbessern. Durch die Verwendung von speziellen Schriftarten und der FastFont-Technologie kann die App die Lesegeschwindigkeit und das Verständnis erheblich verbessern. ❓ Häufig gestellte Fragen\n\nIst dies sicher zu verwenden?\n🔒 Absolut! ADHD Reader verarbeitet alles lokal, ohne Daten an externe Server zu senden. Ihre Privatsphäre ist vollständig geschützt.\n\nWie hilft es bei ADHS?\n🧠 Menschen mit ADHS haben oft Schwierigkeiten mit visueller Verarbeitung und Konzentration beim Lesen. Unsere speziellen Schriftarten erzeugen künstliche Fixationspunkte, die die Augen durch den Text führen, Ablenkungen reduzieren und helfen, die Konzentration zu erhöhen.\n\nFunktioniert es auf allen Websites?\n✅ Ja - ADHD Reader funktioniert auf nahezu allen Webseiten, wobei der Textinhalt transformiert und die Funktionalität der Website erhalten bleibt.\n\nKann es auch bei Dyslexie helfen?\n📚 Ja! Für viele Menschen mit Dyslexie können die künstlichen Fixationspunkte die Leseverständlichkeit und -geschwindigkeit erheblich verbessern, indem sie eine klare visuelle Führung durch den! Text bieten.\n\n🔬 Die Wissenschaft dahinter\nADHD Reader verwendet die FastFont-Technologie, die visuelle Hinweise verwendet, um das Lesen zu führen. Dieser Ansatz hilft Lesern mit ADHS und Dyslexie, häufige Herausforderungen wie:\n- Übersehen Sie den Text\n- mehrmals dieselben Zeilen wiederholen\n- Entfernen Sie Ablenkungen durch umgebenden Text\n\nDurch die Hervorhebung von Anfangsbuchstaben und die Erstellung künstlicher Fixationspunkte leitet Fast Font die Leseraufmerksamkeit durch den Text, während das Gehirn Wörter natürlich vervollständigt, was zu einer erheblichen Verbesserung der Lesegeschwindigkeit und -verständlichkeit führt - sogar bis zu \"überschallschnellen\" Lesegeschwindigkeiten für einige Benutzer."}}
+{
+  "appName": {
+    "message": "ADHD Reader"
+  },
+  "appDesc": {
+    "message": "ADHD Reader Webseiten für bessere Konzentration anpassen"
+  },
+  "storeDesc": {
+    "message": "⚡ Transformieren Sie Webseiten sofort in eine störungsfreie Leseumgebung, die speziell für Menschen mit ADHS und Dyslexie konzipiert ist. Unsere minimale Benutzeroberfläche verbessert die Konzentration und das Textverständnis, wodurch das Online-Lesen einfacher und effizienter wird.\n\n✨ Warum wählen Sie den ADHD-Reader?\n🧠 Verbesserte Konzentration für ADHS- und dyslexische Leser\n🎯 Spezielle Schriftart für verbesserte Konzentration\n🔄 Instantane Schriftumwandlung mit einem Klick\n🛡️ Vollständige Privatsphäre - alle Verarbeitungen erfolgen lokal\n🔍 Basierend auf forschungsbasierten Schrifttechnologien\n\n🚀 Hauptfunktionen\n• Einfaches Ein-/Aus-Schalter\n• Schriftauswahl optimiert für ADHS-Leser\n• Saubere, minimale Benutzeroberfläche\n• Keine Datenerfassung\n• Geringer Leistungsimpact\n\n💡 Funktionsweise\nDer ADHD-Reader verwendet die FastFont-Technologie, um Ihre Augen durch den Text mit künstlichen Fixationspunkten zu führen. Dieser revolutionäre Ansatz hilft Lesern, sich nur auf die hervorgehobenen Anfangsbuchstaben zu konzentrieren, während das Gehirn das Wort vervollständigt, was die Lesegeschwindigkeit und das Verständnis erheblich verbessert.\n\nDie Erweiterung bietet zwei Schriftarten an:\n- Sans Serif: Saubere, moderne Schrift ohne dekorative Elemente\n- Serif: Traditionelle Schrift mit kleinen dekorativen Linien, die bei der Buchstabenunterscheidung helfen können\n\n🔧 Anleitung\n1. Installieren Sie die Erweiterung\n2. Klicken Sie auf das Erweiterungssymbol in Ihrem Browser\n3. Schalten Sie die Erweiterung ein oder aus, wie benötigt\n4. Wählen Sie Ihre bevorzugte Schriftart\n5. Erfahren Sie sofort verbesserte Lesekonzentration\n\nHinweis: Die ADHS-Lese-App wurde speziell für Menschen mit ADHS und Dyslexie entwickelt, um die Lesekonzentration und das Textverständnis zu verbessern. Durch die Verwendung von speziellen Schriftarten und der FastFont-Technologie kann die App die Lesegeschwindigkeit und das Verständnis erheblich verbessern. ❓ Häufig gestellte Fragen\n\nIst dies sicher zu verwenden?\n🔒 Absolut! ADHD Reader verarbeitet alles lokal, ohne Daten an externe Server zu senden. Ihre Privatsphäre ist vollständig geschützt.\n\nWie hilft es bei ADHS?\n🧠 Menschen mit ADHS haben oft Schwierigkeiten mit visueller Verarbeitung und Konzentration beim Lesen. Unsere speziellen Schriftarten erzeugen künstliche Fixationspunkte, die die Augen durch den Text führen, Ablenkungen reduzieren und helfen, die Konzentration zu erhöhen.\n\nFunktioniert es auf allen Websites?\n✅ Ja - ADHD Reader funktioniert auf nahezu allen Webseiten, wobei der Textinhalt transformiert und die Funktionalität der Website erhalten bleibt.\n\nKann es auch bei Dyslexie helfen?\n📚 Ja! Für viele Menschen mit Dyslexie können die künstlichen Fixationspunkte die Leseverständlichkeit und -geschwindigkeit erheblich verbessern, indem sie eine klare visuelle Führung durch den! Text bieten.\n\n🔬 Die Wissenschaft dahinter\nADHD Reader verwendet die FastFont-Technologie, die visuelle Hinweise verwendet, um das Lesen zu führen. Dieser Ansatz hilft Lesern mit ADHS und Dyslexie, häufige Herausforderungen wie:\n- Übersehen Sie den Text\n- mehrmals dieselben Zeilen wiederholen\n- Entfernen Sie Ablenkungen durch umgebenden Text\n\nDurch die Hervorhebung von Anfangsbuchstaben und die Erstellung künstlicher Fixationspunkte leitet Fast Font die Leseraufmerksamkeit durch den Text, während das Gehirn Wörter natürlich vervollständigt, was zu einer erheblichen Verbesserung der Lesegeschwindigkeit und -verständlichkeit führt - sogar bis zu \"überschallschnellen\" Lesegeschwindigkeiten für einige Benutzer."
+  },
+  "ui_thanks": {
+    "message": "Danke für die Installation von ADHD Reader!"
+  },
+  "ui_intro": {
+    "message": "ADHD Reader ändert Website-Schriften für angenehmeres Lesen. Wähle eine Schrift und die Websites, auf denen sie verwendet wird."
+  },
+  "ui_settings": {
+    "message": "Einstellungen"
+  },
+  "ui_font": {
+    "message": "Schriftstil"
+  },
+  "ui_sans": {
+    "message": "Ohne Serifen"
+  },
+  "ui_serif": {
+    "message": "Mit Serifen"
+  },
+  "ui_mode": {
+    "message": "Wo soll die Erweiterung funktionieren?"
+  },
+  "ui_blacklist": {
+    "message": "Alle Websites außer"
+  },
+  "ui_whitelist": {
+    "message": "Nur aufgelistete Websites"
+  },
+  "ui_excluded": {
+    "message": "Websites mit Originalschriften"
+  },
+  "ui_included": {
+    "message": "Websites mit aktiviertem ADHD Reader"
+  },
+  "ui_empty": {
+    "message": "Noch keine Websites."
+  },
+  "ui_add": {
+    "message": "Hinzufügen"
+  },
+  "ui_address": {
+    "message": "Website-Adresse"
+  },
+  "ui_invalid": {
+    "message": "Gib eine Website-Adresse ein, z. B. example.com."
+  },
+  "ui_duplicate": {
+    "message": "Diese Website ist bereits auf der Liste."
+  },
+  "ui_saveError": {
+    "message": "Speichern fehlgeschlagen. Bitte erneut versuchen."
+  },
+  "ui_ready": {
+    "message": "Lesen starten"
+  },
+  "ui_later": {
+    "message": "Du kannst diese Einstellungen jederzeit ändern."
+  },
+  "ui_remove": {
+    "message": "Website entfernen"
+  }
+}

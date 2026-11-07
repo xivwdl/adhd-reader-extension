@@ -1,1 +1,71 @@
-{"appName":{"message":"ADHD Reader"},"appDesc":{"message":"ADHD Reader: Transform Web Pages for Better Focus"},"storeDesc":{"message":"⚡ Instantly transform web pages into a distraction-free reading environment tailored specifically for people with ADHD and dyslexia. Our minimal interface enhances focus and text comprehension, making online reading easier and more efficient.\n\n✨ Why Choose ADHD Reader?\n🧠 Enhanced focus for ADHD and dyslexic readers  \n🎯 Specialized typography for improved concentration  \n🔄 Instant font transformation with one click  \n🛡️ Complete privacy - all processing happens locally  \n🔍 Based on research-backed font technology  \n\n🚀 Key Features\n• Simple on/off toggle  \n• Font selection optimized for ADHD readers  \n• Clean, minimal interface  \n• Zero data collection  \n• Lightweight performance impact  \n\n💡 How It Works\nADHD Reader utilizes the FastFont technology to guide your eyes through text with artificial fixation points. This revolutionary approach helps readers focus only on highlighted initial letters while the brain completes the word, significantly increasing reading speed and comprehension.\n\nThe extension offers two font options:\n- Sans Serif: Clean, modern font without decorative elements\n- Serif: Traditional font with small decorative lines that can help with letter distinction\n\n🔧 How to Use\n1. Install the extension\n2. Click the extension icon in your browser\n3. Toggle on/off as needed\n4. Select your preferred font type\n5. Experience improved reading focus immediately ❓ Frequently Asked Questions\n\nIs this safe to use?\n🔒 Absolutely! ADHD Reader processes everything locally without sending any data to external servers. Your privacy is completely protected.\n\nHow does it help with ADHD?\n🧠 People with ADHD often struggle with visual processing and maintaining focus while reading. Our specialized fonts create artificial fixation points that guide the eyes through text, reducing distractions and helping maintain concentration.\n\nDoes it work on all websites?\n✅ Yes - ADHD Reader works on virtually all web pages, transforming text content while preserving site functionality.\n\nCan it help with dyslexia too?\n📚 Yes! For many people with dyslexia, the artificial fixation points can significantly improve reading comprehension and speed by providing clear visual guidance through text.\n\n🔬 The Science Behind It\nADHD Reader implements the FastFont technology, which uses visual cues to guide reading. This approach helps readers with ADHD and dyslexia overcome common challenges like:\n- Losing their place in text\n- Rereading the same lines repeatedly\n- Getting distracted by surrounding text\n\nBy highlighting initial letters and creating artificial fixation points, Fast Font guides the reader's attention through the text while letting the brain naturally complete words, resulting in significantly improved reading speed and comprehension - even reaching \"supersonic\" reading speeds for some users."}}
+{
+  "appName": {
+    "message": "ADHD Reader"
+  },
+  "appDesc": {
+    "message": "ADHD Reader: Transform Web Pages for Better Focus"
+  },
+  "storeDesc": {
+    "message": "⚡ Instantly transform web pages into a distraction-free reading environment tailored specifically for people with ADHD and dyslexia. Our minimal interface enhances focus and text comprehension, making online reading easier and more efficient.\n\n✨ Why Choose ADHD Reader?\n🧠 Enhanced focus for ADHD and dyslexic readers  \n🎯 Specialized typography for improved concentration  \n🔄 Instant font transformation with one click  \n🛡️ Complete privacy - all processing happens locally  \n🔍 Based on research-backed font technology  \n\n🚀 Key Features\n• Simple on/off toggle  \n• Font selection optimized for ADHD readers  \n• Clean, minimal interface  \n• Zero data collection  \n• Lightweight performance impact  \n\n💡 How It Works\nADHD Reader utilizes the FastFont technology to guide your eyes through text with artificial fixation points. This revolutionary approach helps readers focus only on highlighted initial letters while the brain completes the word, significantly increasing reading speed and comprehension.\n\nThe extension offers two font options:\n- Sans Serif: Clean, modern font without decorative elements\n- Serif: Traditional font with small decorative lines that can help with letter distinction\n\n🔧 How to Use\n1. Install the extension\n2. Click the extension icon in your browser\n3. Toggle on/off as needed\n4. Select your preferred font type\n5. Experience improved reading focus immediately ❓ Frequently Asked Questions\n\nIs this safe to use?\n🔒 Absolutely! ADHD Reader processes everything locally without sending any data to external servers. Your privacy is completely protected.\n\nHow does it help with ADHD?\n🧠 People with ADHD often struggle with visual processing and maintaining focus while reading. Our specialized fonts create artificial fixation points that guide the eyes through text, reducing distractions and helping maintain concentration.\n\nDoes it work on all websites?\n✅ Yes - ADHD Reader works on virtually all web pages, transforming text content while preserving site functionality.\n\nCan it help with dyslexia too?\n📚 Yes! For many people with dyslexia, the artificial fixation points can significantly improve reading comprehension and speed by providing clear visual guidance through text.\n\n🔬 The Science Behind It\nADHD Reader implements the FastFont technology, which uses visual cues to guide reading. This approach helps readers with ADHD and dyslexia overcome common challenges like:\n- Losing their place in text\n- Rereading the same lines repeatedly\n- Getting distracted by surrounding text\n\nBy highlighting initial letters and creating artificial fixation points, Fast Font guides the reader's attention through the text while letting the brain naturally complete words, resulting in significantly improved reading speed and comprehension - even reaching \"supersonic\" reading speeds for some users."
+  },
+  "ui_thanks": {
+    "message": "Thanks for installing ADHD Reader!"
+  },
+  "ui_intro": {
+    "message": "ADHD Reader changes website fonts for more comfortable reading. Choose your font and where it should work."
+  },
+  "ui_settings": {
+    "message": "Settings"
+  },
+  "ui_font": {
+    "message": "Font Style"
+  },
+  "ui_sans": {
+    "message": "Sans Serif"
+  },
+  "ui_serif": {
+    "message": "Serif"
+  },
+  "ui_mode": {
+    "message": "Where should it work?"
+  },
+  "ui_blacklist": {
+    "message": "All sites except"
+  },
+  "ui_whitelist": {
+    "message": "Only listed sites"
+  },
+  "ui_excluded": {
+    "message": "Sites where original fonts are kept"
+  },
+  "ui_included": {
+    "message": "Sites where ADHD Reader is enabled"
+  },
+  "ui_empty": {
+    "message": "No sites added."
+  },
+  "ui_add": {
+    "message": "Add"
+  },
+  "ui_address": {
+    "message": "Website address"
+  },
+  "ui_invalid": {
+    "message": "Enter a website address, like example.com."
+  },
+  "ui_duplicate": {
+    "message": "This site is already on the list."
+  },
+  "ui_saveError": {
+    "message": "Could not save. Please try again."
+  },
+  "ui_ready": {
+    "message": "Ready to read"
+  },
+  "ui_later": {
+    "message": "You can change these settings anytime."
+  },
+  "ui_remove": {
+    "message": "Remove site"
+  }
+}

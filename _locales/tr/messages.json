@@ -1,1 +1,71 @@
-{"appName":{"message":"ADHD Reader"},"appDesc":{"message":"ADHD Reader: Daha İyi Odaklanma İçin Web Sayfalarını Dönüştür"},"storeDesc":{"message":"⚡ ADHD Reader: DEHB ve Disleksisi Olanlar İçin Tasarlanmış Dikkat Dağıtmayan Bir Okuma Ortamı\nWeb sayfalarını anında DEHB ve disleksiye sahip kişiler için özel olarak uyarlanmış, dikkat dağıtıcı öğelerden arındırılmış bir okuma ortamına dönüştürün. Minimal arayüzümüz, odaklanmayı ve metin anlama yeteneğini artırarak çevrimiçi okumayı daha kolay ve verimli hale getirir.\n\n✨ Neden ADHD Reader'ı Seçmelisiniz?\n🧠 DEHB ve Disleksili Okuyucular İçin Gelişmiş Odaklanma\n🎯 Konsantrasyonu Artıran Özel Tipografi\n🔄 Tek Tıkla Anlık Yazı Tipi Dönüşümü\n🛡️ Tam Gizlilik — Tüm işlemler yerel cihazınızda gerçekleşir\n🔍 Bilimsel Araştırmalara Dayalı Yazı Tipi Teknolojisi\n\n🚀 Temel Özellikler\n• Basit Açma/Kapama Düğmesi\n• DEHB Okuyucular İçin Optimize Edilmiş Yazı Tipleri\n• Sade ve Minimal Arayüz\n• Veri Toplanmaz\n• Tarayıcı Performansına Hafif Etki\n\n💡 Nasıl Çalışır?\nADHD Reader, metin boyunca gözlerinizi yapay sabitleme noktaları ile yönlendiren FastFont teknolojisini kullanır. Bu yenilikçi yaklaşım, beynin kelimeyi tamamlamasına izin verirken yalnızca vurgulanan baş harflere odaklanmanızı sağlar. Böylece okuma hızı ve anlama becerisi belirgin şekilde artar.\n\nEklenti, iki yazı tipi seçeneği sunar:\n\nSans Serif: Dekoratif öğeler içermeyen temiz ve modern yazı tipi\nSerif: Harf ayrımını kolaylaştıran geleneksel yazı tipi (küçük süs çizgileri içerir)\n🔧 Kullanım Talimatları\n\nEklentiyi yükleyin\nTarayıcınızdaki ADHD Reader simgesine tıklayın\nİhtiyacınıza göre açın/kapayın\nTercih ettiğiniz yazı tipini seçin\nGelişmiş odaklanma deneyimini hemen yaşayın! ❓ Sıkça Sorulan Sorular\n\nBu güvenli mi?\n🔒 Kesinlikle! ADHD Reader tüm verileri harici sunuculara göndermeden yerel olarak işler. Gizliliğiniz tamamen korunur.\n\nDEHB'ye nasıl yardımcı oluyor?\n🧠 DEHB'li bireyler, okuma sırasında görsel algı ve odaklanma sorunları yaşayabilir. Özel yazı tiplerimiz, gözleri metin boyunca yönlendiren yapay sabitleme noktaları oluşturarak dikkat dağıtıcıları azaltır ve konsantrasyonu artırır.\n\nTüm web sitelerinde çalışıyor mu?\n✅ Evet — ADHD Reader hemen hemen tüm web sayfalarında çalışır, metin içeriğini dönüştürürken site işlevselliğini korur.\n\nDisleksiye de yardımcı olur mu?\n📚 Evet! Disleksisi olan birçok kişi için yapay sabitleme noktaları, metinde net bir görsel rehberlik sağlayarak okuma hızını ve anlamayı önemli ölçüde geliştirebilir.\n\n🔬 Arkasındaki Bilim\nADHD Reader, okumayı kolaylaştırmak için görsel ipuçları kullanan FastFont teknolojisini temel alır. Bu yaklaşım, DEHB ve disleksisi olan kullanıcıların şu gibi zorlukların üstesinden gelmesine yardımcı olur:\n\n- Metinde yer kaybetme\n- Aynı satırları tekrar tekrar okuma\n- Çevredeki metinlerden dikkatin dağılması\n\nNasıl işliyor?\nFastFont, baş harfleri vurgulayarak ve yapay sabitleme noktaları oluşturarak dikkati metin boyunca yönlendirir. Beynin kelimeyi doğal olarak tamamlamasına izin veren bu sistem sayesinde:\n\n- Okuma hızı artar\n- Metin anlama becerisi gelişir\n- Bazı kullanıcılar \"süpersonik okuma hızlarına\" bile ulaşabilir!"}}
+{
+  "appName": {
+    "message": "ADHD Reader"
+  },
+  "appDesc": {
+    "message": "ADHD Reader: Daha İyi Odaklanma İçin Web Sayfalarını Dönüştür"
+  },
+  "storeDesc": {
+    "message": "⚡ ADHD Reader: DEHB ve Disleksisi Olanlar İçin Tasarlanmış Dikkat Dağıtmayan Bir Okuma Ortamı\nWeb sayfalarını anında DEHB ve disleksiye sahip kişiler için özel olarak uyarlanmış, dikkat dağıtıcı öğelerden arındırılmış bir okuma ortamına dönüştürün. Minimal arayüzümüz, odaklanmayı ve metin anlama yeteneğini artırarak çevrimiçi okumayı daha kolay ve verimli hale getirir.\n\n✨ Neden ADHD Reader'ı Seçmelisiniz?\n🧠 DEHB ve Disleksili Okuyucular İçin Gelişmiş Odaklanma\n🎯 Konsantrasyonu Artıran Özel Tipografi\n🔄 Tek Tıkla Anlık Yazı Tipi Dönüşümü\n🛡️ Tam Gizlilik — Tüm işlemler yerel cihazınızda gerçekleşir\n🔍 Bilimsel Araştırmalara Dayalı Yazı Tipi Teknolojisi\n\n🚀 Temel Özellikler\n• Basit Açma/Kapama Düğmesi\n• DEHB Okuyucular İçin Optimize Edilmiş Yazı Tipleri\n• Sade ve Minimal Arayüz\n• Veri Toplanmaz\n• Tarayıcı Performansına Hafif Etki\n\n💡 Nasıl Çalışır?\nADHD Reader, metin boyunca gözlerinizi yapay sabitleme noktaları ile yönlendiren FastFont teknolojisini kullanır. Bu yenilikçi yaklaşım, beynin kelimeyi tamamlamasına izin verirken yalnızca vurgulanan baş harflere odaklanmanızı sağlar. Böylece okuma hızı ve anlama becerisi belirgin şekilde artar.\n\nEklenti, iki yazı tipi seçeneği sunar:\n\nSans Serif: Dekoratif öğeler içermeyen temiz ve modern yazı tipi\nSerif: Harf ayrımını kolaylaştıran geleneksel yazı tipi (küçük süs çizgileri içerir)\n🔧 Kullanım Talimatları\n\nEklentiyi yükleyin\nTarayıcınızdaki ADHD Reader simgesine tıklayın\nİhtiyacınıza göre açın/kapayın\nTercih ettiğiniz yazı tipini seçin\nGelişmiş odaklanma deneyimini hemen yaşayın! ❓ Sıkça Sorulan Sorular\n\nBu güvenli mi?\n🔒 Kesinlikle! ADHD Reader tüm verileri harici sunuculara göndermeden yerel olarak işler. Gizliliğiniz tamamen korunur.\n\nDEHB'ye nasıl yardımcı oluyor?\n🧠 DEHB'li bireyler, okuma sırasında görsel algı ve odaklanma sorunları yaşayabilir. Özel yazı tiplerimiz, gözleri metin boyunca yönlendiren yapay sabitleme noktaları oluşturarak dikkat dağıtıcıları azaltır ve konsantrasyonu artırır.\n\nTüm web sitelerinde çalışıyor mu?\n✅ Evet — ADHD Reader hemen hemen tüm web sayfalarında çalışır, metin içeriğini dönüştürürken site işlevselliğini korur.\n\nDisleksiye de yardımcı olur mu?\n📚 Evet! Disleksisi olan birçok kişi için yapay sabitleme noktaları, metinde net bir görsel rehberlik sağlayarak okuma hızını ve anlamayı önemli ölçüde geliştirebilir.\n\n🔬 Arkasındaki Bilim\nADHD Reader, okumayı kolaylaştırmak için görsel ipuçları kullanan FastFont teknolojisini temel alır. Bu yaklaşım, DEHB ve disleksisi olan kullanıcıların şu gibi zorlukların üstesinden gelmesine yardımcı olur:\n\n- Metinde yer kaybetme\n- Aynı satırları tekrar tekrar okuma\n- Çevredeki metinlerden dikkatin dağılması\n\nNasıl işliyor?\nFastFont, baş harfleri vurgulayarak ve yapay sabitleme noktaları oluşturarak dikkati metin boyunca yönlendirir. Beynin kelimeyi doğal olarak tamamlamasına izin veren bu sistem sayesinde:\n\n- Okuma hızı artar\n- Metin anlama becerisi gelişir\n- Bazı kullanıcılar \"süpersonik okuma hızlarına\" bile ulaşabilir!"
+  },
+  "ui_thanks": {
+    "message": "ADHD Reader’ı yüklediğiniz için teşekkürler!"
+  },
+  "ui_intro": {
+    "message": "ADHD Reader, daha rahat okuma için sitelerin yazı tiplerini değiştirir. Yazı tipini ve hangi sitelerde çalışacağını seçin."
+  },
+  "ui_settings": {
+    "message": "Ayarlar"
+  },
+  "ui_font": {
+    "message": "Yazı tipi stili"
+  },
+  "ui_sans": {
+    "message": "Serifsiz"
+  },
+  "ui_serif": {
+    "message": "Serifli"
+  },
+  "ui_mode": {
+    "message": "Nerede çalışmalı?"
+  },
+  "ui_blacklist": {
+    "message": "Şu siteler hariç tümü"
+  },
+  "ui_whitelist": {
+    "message": "Yalnızca listedeki siteler"
+  },
+  "ui_excluded": {
+    "message": "Özgün yazı tiplerini koruyan siteler"
+  },
+  "ui_included": {
+    "message": "ADHD Reader’ın etkin olduğu siteler"
+  },
+  "ui_empty": {
+    "message": "Henüz site eklenmedi."
+  },
+  "ui_add": {
+    "message": "Ekle"
+  },
+  "ui_address": {
+    "message": "Site adresi"
+  },
+  "ui_invalid": {
+    "message": "example.com gibi bir site adresi girin."
+  },
+  "ui_duplicate": {
+    "message": "Bu site zaten listede."
+  },
+  "ui_saveError": {
+    "message": "Kaydedilemedi. Tekrar deneyin."
+  },
+  "ui_ready": {
+    "message": "Okumaya başla"
+  },
+  "ui_later": {
+    "message": "Bu ayarları istediğiniz zaman değiştirebilirsiniz."
+  },
+  "ui_remove": {
+    "message": "Siteyi kaldır"
+  }
+}

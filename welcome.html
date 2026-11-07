@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ADHD Reader</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <div class="container">
+    <header class="page-header">
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <img src="icons/icon128.png" alt="">
+        <h1>ADHD Reader</h1>
+      </div>
+    </header>
+    <h2 class="welcome-title" data-i18n="ui_thanks"></h2>
+    <p class="intro" data-i18n="ui_intro"></p>
+    <div class="settings-card font-toggle-card">
+      <span class="font-toggle-title" data-i18n="ui_font">Font Style</span>
+      <div class="font-toggle-switch">
+        <span id="font-sans-label" class="font-toggle-label" data-i18n="ui_sans">Sans Serif</span>
+        <label class="switch">
+          <input type="checkbox" data-i18n-label="ui_font" id="font-type-toggle">
+          <span class="slider"></span>
+        </label>
+        <span id="font-serif-label" class="font-toggle-label" data-i18n="ui_serif">Serif</span>
+      </div>
+    </div>
+    <!-- List Mode Toggle Card -->
+    <div class="settings-card" style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start; justify-content: center;">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; width: 100%; gap: 1rem;">
+        <span class="font-toggle-title" data-i18n="ui_mode">List Mode</span>
+        <div class="font-toggle-switch">
+          <span id="blacklist-label" class="font-toggle-label" data-i18n="ui_blacklist">All sites except</span>
+          <label class="switch">
+            <input type="checkbox" data-i18n-label="ui_mode" id="list-mode-toggle">
+            <span class="slider"></span>
+          </label>
+          <span id="whitelist-label" class="font-toggle-label" data-i18n="ui_whitelist">Only listed sites</span>
+        </div>
+      </div>
+      <div class="font-toggle-label" style="font-size: 13px; color: var(--muted-foreground); margin-top: 0.1rem;">
+        <span id="mode-help"></span>
+      </div>
+    </div>
+    <div class="settings-card sites-card">
+      <h2 id="site-list-title">Disabled on websites</h2>
+      <form id="site-form" class="site-form"><input id="site-input" type="text" placeholder="example.com" data-i18n-label="ui_address" required><button type="submit" data-i18n="ui_add">Add</button></form>
+      <p id="site-status" class="status" role="alert"></p>
+      <ul id="disabled-sites-list"></ul>
+      <p id="empty-message" class="empty-message" style="display: none;" data-i18n="ui_empty">The list is empty.</p>
+    </div>
+    <p class="intro" data-i18n="ui_later"></p>
+    <div class="footer"><a href="https://d1ma.xyz/" target="_blank" rel="noopener noreferrer">made by d1ma.xyz</a><button id="ready" class="ready" data-i18n="ui_ready"></button></div>
+  </div>
+  <script src="settings-common.js"></script>
+  <script src="options.js"></script>
+</body>
+</html> 

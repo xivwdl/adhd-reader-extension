@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+  SettingsUI.localize();
   // --- UI Elements ---
   const sitesList = document.getElementById('disabled-sites-list');
   const emptyMessage = document.getElementById('empty-message');
@@ -28,10 +29,16 @@ document.addEventListener('DOMContentLoaded', () => {
         link.style.textDecoration = 'underline';
         const removeButton = document.createElement('button');
         removeButton.className = 'remove-btn';
+        removeButton.setAttribute('aria-label', SettingsUI.message('remove') + ': ' + site);
         removeButton.innerHTML = `<span class="icon-display icon-trash"></span>`;
         removeButton.onclick = () => {
-          const updatedSites = siteList.filter(s => s !== site);
-          chrome.storage.sync.set({ siteList: updatedSites });
+          chrome.storage.sync.get(['siteList'], data => {
+            if (chrome.runtime.lastError) { showError('saveError'); return; }
+            const updatedSites = (Array.isArray(data.siteList) ? data.siteList : []).filter(s => s !== site);
+            chrome.storage.sync.set({ siteList: updatedSites }, () => {
+              if (chrome.runtime.lastError) showError('saveError');
+            });
+          });
         };
         listItem.appendChild(link);
         listItem.appendChild(removeButton);
@@ -54,7 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
     listModeToggle.checked = isWhitelist;
     blacklistLabel.classList.toggle('is-active', !isWhitelist);
     whitelistLabel.classList.toggle('is-active', isWhitelist);
-    siteListTitle.textContent = isWhitelist ? 'List of enabled sites' : 'List of disabled sites';
+    siteListTitle.textContent = SettingsUI.message(isWhitelist ? 'included' : 'excluded');
+    document.getElementById('mode-help').textContent = SettingsUI.message(isWhitelist ? 'included' : 'excluded');
   }
 
   function renderPage(data) {
@@ -62,6 +70,32 @@ document.addEventListener('DOMContentLoaded', () => {
     updateFontToggleUI(data.fontType || 'sans');
     updateListModeUI(data.listMode || 'blacklist');
   }
+
+  const form = document.getElementById('site-form');
+  const input = document.getElementById('site-input');
+  const status = document.getElementById('site-status');
+  function showError(key) { status.textContent = SettingsUI.message(key); }
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    let host;
+    try { host = SettingsUI.hostname(input.value); }
+    catch { showError('invalid'); return; }
+    const button = form.querySelector('button');
+    button.disabled = true;
+    chrome.storage.sync.get(['siteList'], data => {
+      if (chrome.runtime.lastError) { button.disabled = false; showError('saveError'); return; }
+      const sites = Array.isArray(data.siteList) ? data.siteList : [];
+      if (sites.includes(host)) { button.disabled = false; showError('duplicate'); return; }
+      chrome.storage.sync.set({ siteList: [...sites, host] }, () => {
+        button.disabled = false;
+        if (chrome.runtime.lastError) { showError('saveError'); return; }
+        input.value = '';
+        status.textContent = '';
+      });
+    });
+  });
+  const ready = document.getElementById('ready');
+  if (ready) ready.addEventListener('click', () => window.close());
 
   // --- Initial Load ---
   chrome.storage.sync.get(['siteList', 'fontType', 'listMode'], (data) => {

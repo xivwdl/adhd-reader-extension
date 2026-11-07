@@ -1,1 +1,71 @@
-{"appName":{"message":"ADHD Reader"},"appDesc":{"message":"ADHD Reader transforma páginas web"},"storeDesc":{"message":"⚡ Transforma instantáneamente las páginas web en un entorno de lectura libre de distracciones diseñado específicamente para personas con TDAH y dislexia. Nuestra interfaz minimalista mejora el enfoque y la comprensión del texto, lo que hace que la lectura en línea sea más fácil y eficiente.\n\n✨ ¿Por qué elegir ADHD Reader?\n🧠 Mejora del enfoque para lectores con TDAH y dislexia  \n🎯 Tipografía especializada para mejorar la concentración  \n🔄 Transformación de fuente instantánea con un solo clic  \n🛡️ Privacidad total - todo el procesamiento se realiza de forma local  \n🔍 Basado en tecnología de fuente respaldada por investigación  \n\n🚀 Características clave\n• Interruptor de activación/desactivación simple  \n• Selección de fuente optimizada para lectores con TDAH  \n• Interfaz limpia y minimalista  \n• No se collectan datos  \n• Impacto de rendimiento ligero  \n\n💡 Cómo funciona\nADHD Reader utiliza la tecnología FastFont para guiar tus ojos a través del texto con puntos de fijación artificiales. Este enfoque revolucionario ayuda a los lectores a enfocarse solo en las letras iniciales resaltadas mientras el cerebro completa la palabra, lo que aumenta significativamente la velocidad y la comprensión de la lectura.\n\nLa extensión ofrece dos opciones de fuente:\n- Sans Serif: Fuente moderna y limpia sin elementos decorativos\n- Serif: Fuente tradicional con líneas decorativas pequeñas que pueden ayudar a distinguir entre letras\n\n🔧 Cómo usar\n1. Instala la extensión\n2. Haz clic en el icono de la extensión en tu navegador\n3. Activar/desactivar según sea necesario\n4. Selecciona el tipo de fuente que prefieras\n5. Experimenta un enfoque de lectura mejorado de inmediato\n\nNota: He intentado mantener la esencia y la estructura original del texto, adaptándolo al español de manera natural y fluida. ❓ Preguntas frecuentes\n\n¿Es seguro de usar?\n🔒 ¡Absolutamente! ADHD Reader procesa todo de manera local sin enviar ningún dato a servidores externos. Tu privacidad está completamente protegida.\n\n¿Cómo ayuda con el TDAH?\n🧠 Las personas con TDAH a menudo tienen dificultades con el procesamiento visual y para mantener el enfoque mientras leen. Nuestras fuentes especializadas crean puntos de fijación artificiales que guían los ojos a través del texto, reduciendo las distracciones y ayudando a mantener la concentración.\n\n¿Funciona en todos los sitios web?\n✅ Sí, ADHD Reader funciona en prácticamente todas las páginas web, transformando el contenido de texto mientras se mantiene la funcionalidad del sitio.\n\n¿Puede ayudar con la dislexia también?\n📚 ¡Sí! Para muchas personas con dislexia, los puntos de fijación artificiales pueden mejorar significativamente la comprensión y la velocidad de lectura al proporcionar una guía visual clara a través del texto.\n\n🔬 La ciencia detrás de ello\nADHD Reader implementa la tecnología FastFont, que utiliza señales nocionales visuales para guiar la lectura. Este enfoque ayuda a los lectores con TDAH y dislexia a superar desafíos comunes como:\n- Perder el lugar en el texto\n- Volver a leer las mismas líneas repetidamente\n- Distraverse con el texto circundante\n\nAl resaltar las letras iniciales y crear puntos de fijación artificiales, Fast Font guía la atención del lector a través del texto mientras permite que el cerebro complete las palabras de manera natural, lo que resulta en una velocidad y comprensión de lectura significativamente mejoradas, incluso alcanzando velocidades de lectura \"supersónicas\" para algunos usuarios."}}
+{
+  "appName": {
+    "message": "ADHD Reader"
+  },
+  "appDesc": {
+    "message": "ADHD Reader transforma páginas web"
+  },
+  "storeDesc": {
+    "message": "⚡ Transforma instantáneamente las páginas web en un entorno de lectura libre de distracciones diseñado específicamente para personas con TDAH y dislexia. Nuestra interfaz minimalista mejora el enfoque y la comprensión del texto, lo que hace que la lectura en línea sea más fácil y eficiente.\n\n✨ ¿Por qué elegir ADHD Reader?\n🧠 Mejora del enfoque para lectores con TDAH y dislexia  \n🎯 Tipografía especializada para mejorar la concentración  \n🔄 Transformación de fuente instantánea con un solo clic  \n🛡️ Privacidad total - todo el procesamiento se realiza de forma local  \n🔍 Basado en tecnología de fuente respaldada por investigación  \n\n🚀 Características clave\n• Interruptor de activación/desactivación simple  \n• Selección de fuente optimizada para lectores con TDAH  \n• Interfaz limpia y minimalista  \n• No se collectan datos  \n• Impacto de rendimiento ligero  \n\n💡 Cómo funciona\nADHD Reader utiliza la tecnología FastFont para guiar tus ojos a través del texto con puntos de fijación artificiales. Este enfoque revolucionario ayuda a los lectores a enfocarse solo en las letras iniciales resaltadas mientras el cerebro completa la palabra, lo que aumenta significativamente la velocidad y la comprensión de la lectura.\n\nLa extensión ofrece dos opciones de fuente:\n- Sans Serif: Fuente moderna y limpia sin elementos decorativos\n- Serif: Fuente tradicional con líneas decorativas pequeñas que pueden ayudar a distinguir entre letras\n\n🔧 Cómo usar\n1. Instala la extensión\n2. Haz clic en el icono de la extensión en tu navegador\n3. Activar/desactivar según sea necesario\n4. Selecciona el tipo de fuente que prefieras\n5. Experimenta un enfoque de lectura mejorado de inmediato\n\nNota: He intentado mantener la esencia y la estructura original del texto, adaptándolo al español de manera natural y fluida. ❓ Preguntas frecuentes\n\n¿Es seguro de usar?\n🔒 ¡Absolutamente! ADHD Reader procesa todo de manera local sin enviar ningún dato a servidores externos. Tu privacidad está completamente protegida.\n\n¿Cómo ayuda con el TDAH?\n🧠 Las personas con TDAH a menudo tienen dificultades con el procesamiento visual y para mantener el enfoque mientras leen. Nuestras fuentes especializadas crean puntos de fijación artificiales que guían los ojos a través del texto, reduciendo las distracciones y ayudando a mantener la concentración.\n\n¿Funciona en todos los sitios web?\n✅ Sí, ADHD Reader funciona en prácticamente todas las páginas web, transformando el contenido de texto mientras se mantiene la funcionalidad del sitio.\n\n¿Puede ayudar con la dislexia también?\n📚 ¡Sí! Para muchas personas con dislexia, los puntos de fijación artificiales pueden mejorar significativamente la comprensión y la velocidad de lectura al proporcionar una guía visual clara a través del texto.\n\n🔬 La ciencia detrás de ello\nADHD Reader implementa la tecnología FastFont, que utiliza señales nocionales visuales para guiar la lectura. Este enfoque ayuda a los lectores con TDAH y dislexia a superar desafíos comunes como:\n- Perder el lugar en el texto\n- Volver a leer las mismas líneas repetidamente\n- Distraverse con el texto circundante\n\nAl resaltar las letras iniciales y crear puntos de fijación artificiales, Fast Font guía la atención del lector a través del texto mientras permite que el cerebro complete las palabras de manera natural, lo que resulta en una velocidad y comprensión de lectura significativamente mejoradas, incluso alcanzando velocidades de lectura \"supersónicas\" para algunos usuarios."
+  },
+  "ui_thanks": {
+    "message": "¡Gracias por instalar ADHD Reader!"
+  },
+  "ui_intro": {
+    "message": "ADHD Reader cambia las fuentes de los sitios web para una lectura más cómoda. Elige la fuente y dónde debe funcionar."
+  },
+  "ui_settings": {
+    "message": "Ajustes"
+  },
+  "ui_font": {
+    "message": "Estilo de fuente"
+  },
+  "ui_sans": {
+    "message": "Sin serifa"
+  },
+  "ui_serif": {
+    "message": "Con serifa"
+  },
+  "ui_mode": {
+    "message": "¿Dónde debe funcionar?"
+  },
+  "ui_blacklist": {
+    "message": "Todos los sitios excepto"
+  },
+  "ui_whitelist": {
+    "message": "Solo los sitios de la lista"
+  },
+  "ui_excluded": {
+    "message": "Sitios con fuentes originales"
+  },
+  "ui_included": {
+    "message": "Sitios con ADHD Reader activado"
+  },
+  "ui_empty": {
+    "message": "No hay sitios añadidos."
+  },
+  "ui_add": {
+    "message": "Añadir"
+  },
+  "ui_address": {
+    "message": "Dirección del sitio"
+  },
+  "ui_invalid": {
+    "message": "Introduce una dirección, como example.com."
+  },
+  "ui_duplicate": {
+    "message": "Este sitio ya está en la lista."
+  },
+  "ui_saveError": {
+    "message": "No se pudo guardar. Inténtalo de nuevo."
+  },
+  "ui_ready": {
+    "message": "Empezar a leer"
+  },
+  "ui_later": {
+    "message": "Puedes cambiar estos ajustes en cualquier momento."
+  },
+  "ui_remove": {
+    "message": "Eliminar sitio"
+  }
+}

@@ -1,1 +1,71 @@
-{"appName":{"message":"ADHD Reader"},"appDesc":{"message":"ADHD Reader améliorer la concentration sur les pages Web"},"storeDesc":{"message":"⚡ Transformez instantanément les pages web en un environnement de lecture sans distraction conçu spécifiquement pour les personnes atteintes du TDAH et de la dyslexie. Notre interface minimale améliore la concentration et la compréhension du texte, rendant la lecture en ligne plus facile et plus efficace.\n\n✨ Pourquoi choisir Lecteur TDAH ?\n🧠 Amélioration de la concentration pour les lecteurs TDAH et dyslexiques\n🎯 Typographie spécialisée pour une meilleure concentration\n🔄 Transformation instantanée de la police en un clic\n🛡️ Confidentialité totale - tout le traitement est effectué localement\n🔍 Basé sur une technologie de police validée par la recherche\n\n🚀 Fonctionnalités clés\n• Interrupteur simple marche/arrêt\n• Sélection de police optimisée pour les lecteurs TDAH\n• Interface minimale et propre\n• Aucune collecte de données\n• Impact de performance léger\n\n💡 Fonctionnement\nLe Lecteur TDAH utilise la technologie FastFont pour guider vos yeux à travers le texte avec des points de fixation artificiels. Cette approche révolutionnaire aide les lecteurs à se concentrer uniquement sur les lettres initiales mises en évidence, tandis que le cerveau complète le mot, augmentant ainsi considérablement la vitesse et la compréhension de la lecture.\n\nL'extension propose deux options de police :\n- Sans Serif : police moderne et propre sans éléments décoratifs\n- Serif : police traditionnelle avec de petites lignes décoratives qui peuvent aider à distinguer les lettres\n\n🔧 Comment utiliser\n1. Installez l'extension\n2. Cliquez sur l'icône de l'extension dans votre navigateur\n3. Activez/désactivez según les besoins\n4. Sélectionnez votre type de police préféré\n5. Expérimentez une amélioration immédiate de la concentration lors de la lecture\n\nCet outil seems être spécifiquement conçu pour les personnes ayant des difficultés de concentration liées au TDAH ou à la dyslexie, en leur offrant un environnement de lecture personnalisé et une typographie spécialisée pour améliorer leur concentration et leur compréhension. Il est légère, ne collecte aucune donnée et fonctionne localement. ❓ Foires aux questions\n\nEst-ce sûr à utiliser ?\n🔒 Absolument ! ADHD Reader traite tout localement sans envoyer de données à des serveurs externes. Votre vie privée est complètement protégée.\n\nComment cela aide-t-il le TDAH ?\n🧠 Les personnes atteintes de TDAH ont souvent des difficultés avec le traitement visuel et la maintenance de l'attention pendant la lecture. Nos polices spéciales créent des points de fixation artificiels qui guident les yeux à travers le texte, réduisant les distractions et aidant à maintenir la concentration.\n\nFonctionne-t-il sur tous les sites web ?\n✅ Oui - ADHD Reader fonctionne sur presque tous les sites web, transformant le contenu textuel tout en préservant la fonctionnalité du site.\n\nPouvez-vous aider la dyslexie également ?\n📚 Oui ! Pour de nombreuses personnes atteintes de dyslexie, les points de fixation artificiels peuvent améliorer considérablement la compréhension et la rapidité de lecture en fournissant des conseils visuels clairs à travers le texte.\n\n🔬 La science derrière cela\nADHD Reader met en œuvre la technologie FastFont, qui utilise des repères visuels pour guider la lecture. Cette approche aide les lecteurs atteints de TDAH et de dyslexie à surmonter les défis courants tels que :\n- Perdre leur place dans le texte\n- Relire les mêmes lignes à plusieurs reprises\n- Se laisser distraire par le texte environnant\n\nEn mettant en évidence les lettres initiales et en créant des points de fixation artificiels, Fast Font guide l'attention du lecteur à travers le texte tout en laissant le cerveau compléter naturellement les mots, ce qui résulte en une amélioration significative de la vitesse et de la compréhension de la lecture - même atteignant des vitesses de lecture \"supersoniques\" pour certains utilisateurs."}}
+{
+  "appName": {
+    "message": "ADHD Reader"
+  },
+  "appDesc": {
+    "message": "ADHD Reader améliorer la concentration sur les pages Web"
+  },
+  "storeDesc": {
+    "message": "⚡ Transformez instantanément les pages web en un environnement de lecture sans distraction conçu spécifiquement pour les personnes atteintes du TDAH et de la dyslexie. Notre interface minimale améliore la concentration et la compréhension du texte, rendant la lecture en ligne plus facile et plus efficace.\n\n✨ Pourquoi choisir Lecteur TDAH ?\n🧠 Amélioration de la concentration pour les lecteurs TDAH et dyslexiques\n🎯 Typographie spécialisée pour une meilleure concentration\n🔄 Transformation instantanée de la police en un clic\n🛡️ Confidentialité totale - tout le traitement est effectué localement\n🔍 Basé sur une technologie de police validée par la recherche\n\n🚀 Fonctionnalités clés\n• Interrupteur simple marche/arrêt\n• Sélection de police optimisée pour les lecteurs TDAH\n• Interface minimale et propre\n• Aucune collecte de données\n• Impact de performance léger\n\n💡 Fonctionnement\nLe Lecteur TDAH utilise la technologie FastFont pour guider vos yeux à travers le texte avec des points de fixation artificiels. Cette approche révolutionnaire aide les lecteurs à se concentrer uniquement sur les lettres initiales mises en évidence, tandis que le cerveau complète le mot, augmentant ainsi considérablement la vitesse et la compréhension de la lecture.\n\nL'extension propose deux options de police :\n- Sans Serif : police moderne et propre sans éléments décoratifs\n- Serif : police traditionnelle avec de petites lignes décoratives qui peuvent aider à distinguer les lettres\n\n🔧 Comment utiliser\n1. Installez l'extension\n2. Cliquez sur l'icône de l'extension dans votre navigateur\n3. Activez/désactivez según les besoins\n4. Sélectionnez votre type de police préféré\n5. Expérimentez une amélioration immédiate de la concentration lors de la lecture\n\nCet outil seems être spécifiquement conçu pour les personnes ayant des difficultés de concentration liées au TDAH ou à la dyslexie, en leur offrant un environnement de lecture personnalisé et une typographie spécialisée pour améliorer leur concentration et leur compréhension. Il est légère, ne collecte aucune donnée et fonctionne localement. ❓ Foires aux questions\n\nEst-ce sûr à utiliser ?\n🔒 Absolument ! ADHD Reader traite tout localement sans envoyer de données à des serveurs externes. Votre vie privée est complètement protégée.\n\nComment cela aide-t-il le TDAH ?\n🧠 Les personnes atteintes de TDAH ont souvent des difficultés avec le traitement visuel et la maintenance de l'attention pendant la lecture. Nos polices spéciales créent des points de fixation artificiels qui guident les yeux à travers le texte, réduisant les distractions et aidant à maintenir la concentration.\n\nFonctionne-t-il sur tous les sites web ?\n✅ Oui - ADHD Reader fonctionne sur presque tous les sites web, transformant le contenu textuel tout en préservant la fonctionnalité du site.\n\nPouvez-vous aider la dyslexie également ?\n📚 Oui ! Pour de nombreuses personnes atteintes de dyslexie, les points de fixation artificiels peuvent améliorer considérablement la compréhension et la rapidité de lecture en fournissant des conseils visuels clairs à travers le texte.\n\n🔬 La science derrière cela\nADHD Reader met en œuvre la technologie FastFont, qui utilise des repères visuels pour guider la lecture. Cette approche aide les lecteurs atteints de TDAH et de dyslexie à surmonter les défis courants tels que :\n- Perdre leur place dans le texte\n- Relire les mêmes lignes à plusieurs reprises\n- Se laisser distraire par le texte environnant\n\nEn mettant en évidence les lettres initiales et en créant des points de fixation artificiels, Fast Font guide l'attention du lecteur à travers le texte tout en laissant le cerveau compléter naturellement les mots, ce qui résulte en une amélioration significative de la vitesse et de la compréhension de la lecture - même atteignant des vitesses de lecture \"supersoniques\" pour certains utilisateurs."
+  },
+  "ui_thanks": {
+    "message": "Merci d’avoir installé ADHD Reader !"
+  },
+  "ui_intro": {
+    "message": "ADHD Reader change les polices des sites pour une lecture plus confortable. Choisissez une police et les sites concernés."
+  },
+  "ui_settings": {
+    "message": "Paramètres"
+  },
+  "ui_font": {
+    "message": "Style de police"
+  },
+  "ui_sans": {
+    "message": "Sans empattement"
+  },
+  "ui_serif": {
+    "message": "Avec empattement"
+  },
+  "ui_mode": {
+    "message": "Où doit fonctionner l’extension ?"
+  },
+  "ui_blacklist": {
+    "message": "Tous les sites sauf"
+  },
+  "ui_whitelist": {
+    "message": "Uniquement les sites listés"
+  },
+  "ui_excluded": {
+    "message": "Sites conservant leurs polices originales"
+  },
+  "ui_included": {
+    "message": "Sites où ADHD Reader est activé"
+  },
+  "ui_empty": {
+    "message": "Aucun site ajouté."
+  },
+  "ui_add": {
+    "message": "Ajouter"
+  },
+  "ui_address": {
+    "message": "Adresse du site"
+  },
+  "ui_invalid": {
+    "message": "Saisissez une adresse, comme example.com."
+  },
+  "ui_duplicate": {
+    "message": "Ce site figure déjà dans la liste."
+  },
+  "ui_saveError": {
+    "message": "Échec de l’enregistrement. Réessayez."
+  },
+  "ui_ready": {
+    "message": "Commencer à lire"
+  },
+  "ui_later": {
+    "message": "Vous pouvez modifier ces paramètres à tout moment."
+  },
+  "ui_remove": {
+    "message": "Supprimer le site"
+  }
+}
