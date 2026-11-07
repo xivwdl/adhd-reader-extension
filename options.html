@@ -92,22 +92,22 @@
     </div>
     <!-- List Mode Toggle Card -->
     <div class="settings-card" style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start; justify-content: center;">
-      <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; gap: 1.5rem;">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; width: 100%; gap: 1rem;">
         <span class="font-toggle-title">List Mode</span>
         <div class="font-toggle-switch">
-          <span id="blacklist-label" class="font-toggle-label">Blacklist</span>
+          <span id="blacklist-label" class="font-toggle-label">All sites except</span>
           <label class="switch">
             <input type="checkbox" id="list-mode-toggle">
             <span class="slider"></span>
           </label>
-          <span id="whitelist-label" class="font-toggle-label">Whitelist</span>
+          <span id="whitelist-label" class="font-toggle-label">Only listed sites</span>
         </div>
       </div>
       <div class="font-toggle-label" style="font-size: 13px; color: var(--muted-foreground); margin-top: 0.1rem;">
         <span>
           Choose mode where ADHD Reader works:<br>
-          <b>• Blacklist</b> — everywhere except listed sites<br>
-          <b>• Whitelist</b> — only on listed sites
+          <b>• All sites except</b> — disabled on the sites below<br>
+          <b>• Only listed sites</b> — enabled only on the sites below
         </span>
       </div>
     </div>
