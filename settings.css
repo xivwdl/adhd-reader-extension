@@ -66,3 +66,7 @@
     .settings-card.sites-card { padding-bottom: 0.5rem; }
   
 .site-form { display:flex; gap:8px; margin:12px 0; } .site-form input { min-width:0; flex:1; padding:10px; border:1px solid var(--border); border-radius:var(--radius); font:14px Arial; } .site-form button,.ready { padding:10px 16px; background:var(--primary); color:white; border:0; border-radius:var(--radius); font:14px Arial; cursor:pointer; } .status { color:var(--danger); font-size:14px; } .intro { color:var(--muted-foreground); font-size:14px; line-height:1.6; } .welcome-title { font-size:24px; } .footer { display:flex; justify-content:space-between; align-items:center; gap:16px; } .footer a { color:var(--muted-foreground); text-decoration:none; font-size:12px; } .footer a:hover { color:#00e13f; } .font-toggle-switch,.font-toggle-card { flex-wrap:wrap; } .switch { flex-shrink:0; } button:focus-visible,input:focus-visible { outline:2px solid var(--primary); outline-offset:3px; }
+
+/* Keep welcome text together without changing the settings page spacing. */
+.welcome-intro { display: grid; gap: 8px; margin-bottom: 8px; }
+.welcome-finish { display: grid; gap: 12px; margin-top: 4px; }
