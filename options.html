@@ -29,51 +29,6 @@
     .page-header { display: flex; align-items: center; gap: 1rem; justify-content: space-between; margin-bottom: 0.6rem; }
     .page-header img { width: 40px; height: 40px; }
     .page-header h1 { font-size: 24px; font-weight: bold; color: var(--primary); text-align: left; }
-    .button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 500;
-      white-space: nowrap;
-      transition: all 0.2s ease;
-      user-select: none;
-      cursor: pointer;
-      width: auto;
-      margin-bottom: 0;
-      border: none;
-      background: none;
-      box-shadow: none;
-    }
-    .button-primary {
-      background: transparent;
-      color: var(--muted-foreground);
-      border: 1px solid var(--muted-foreground);
-      border-radius: 8px;
-      font-size: 14px;
-      height: 40px;
-      padding: 0 1rem;
-      box-shadow: none;
-      transition: background 0.2s, color 0.2s, border-color 0.2s;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-    }
-    .button-primary:hover {
-      background: var(--primary);
-      color: #fff;
-      border-color: var(--primary);
-      opacity: 1;
-      text-decoration: none;
-    }
-    .button-primary:focus-visible {
-      outline: 2px solid #0F172A;
-      outline-offset: 2px;
-    }
-    .button-primary, .button-primary:hover, .button-primary:visited {
-      text-decoration: none;
-    }
-
     .settings-card { background-color: var(--card-background); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; }
     .settings-card h2 { font-size: 18px; margin-bottom: 0.5rem; }
 
@@ -137,22 +92,22 @@
     </div>
     <!-- List Mode Toggle Card -->
     <div class="settings-card" style="display: flex; flex-direction: column; gap: 0.5rem; align-items: flex-start; justify-content: center;">
-      <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; gap: 1.5rem;">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; width: 100%; gap: 1rem;">
         <span class="font-toggle-title">List Mode</span>
         <div class="font-toggle-switch">
-          <span id="blacklist-label" class="font-toggle-label">Blacklist</span>
+          <span id="blacklist-label" class="font-toggle-label">All sites except…</span>
           <label class="switch">
             <input type="checkbox" id="list-mode-toggle">
             <span class="slider"></span>
           </label>
-          <span id="whitelist-label" class="font-toggle-label">Whitelist</span>
+          <span id="whitelist-label" class="font-toggle-label">Only listed sites</span>
         </div>
       </div>
       <div class="font-toggle-label" style="font-size: 13px; color: var(--muted-foreground); margin-top: 0.1rem;">
         <span>
           Choose mode where ADHD Reader works:<br>
-          <b>• Blacklist</b> — everywhere except listed sites<br>
-          <b>• Whitelist</b> — only on listed sites
+          <b>• All sites except…</b> — disabled on the sites below<br>
+          <b>• Only listed sites</b> — enabled only on the sites below
         </span>
       </div>
     </div>
