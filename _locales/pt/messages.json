@@ -60,7 +60,7 @@
     "message": "Não foi possível salvar. Tente novamente."
   },
   "ui_ready": {
-    "message": "Começar a ler"
+    "message": "Salvar e começar a ler"
   },
   "ui_later": {
     "message": "Você pode alterar estas configurações a qualquer momento."
@@ -94,5 +94,8 @@
   },
   "popup_newTab": {
     "message": "Nova aba"
+  },
+  "ui_enabled": {
+    "message": "Ativar extensão"
   }
 }

@@ -60,7 +60,7 @@
     "message": "Could not save. Please try again."
   },
   "ui_ready": {
-    "message": "Ready to read"
+    "message": "Save and start reading"
   },
   "ui_later": {
     "message": "You can change these settings anytime."
@@ -94,5 +94,8 @@
   },
   "popup_newTab": {
     "message": "New tab"
+  },
+  "ui_enabled": {
+    "message": "Enable extension"
   }
 }

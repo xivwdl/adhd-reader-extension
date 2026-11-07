@@ -60,7 +60,7 @@
     "message": "No se pudo guardar. Inténtalo de nuevo."
   },
   "ui_ready": {
-    "message": "Empezar a leer"
+    "message": "Guardar y empezar a leer"
   },
   "ui_later": {
     "message": "Puedes cambiar estos ajustes en cualquier momento."
@@ -94,5 +94,8 @@
   },
   "popup_newTab": {
     "message": "Nueva pestaña"
+  },
+  "ui_enabled": {
+    "message": "Activar extensión"
   }
 }

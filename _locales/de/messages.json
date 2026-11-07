@@ -60,7 +60,7 @@
     "message": "Speichern fehlgeschlagen. Bitte erneut versuchen."
   },
   "ui_ready": {
-    "message": "Lesen starten"
+    "message": "Speichern und lesen"
   },
   "ui_later": {
     "message": "Du kannst diese Einstellungen jederzeit ändern."
@@ -94,5 +94,8 @@
   },
   "popup_newTab": {
     "message": "Neuer Tab"
+  },
+  "ui_enabled": {
+    "message": "Erweiterung aktivieren"
   }
 }

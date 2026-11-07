@@ -60,7 +60,7 @@
     "message": "Échec de l’enregistrement. Réessayez."
   },
   "ui_ready": {
-    "message": "Commencer à lire"
+    "message": "Enregistrer et commencer à lire"
   },
   "ui_later": {
     "message": "Vous pouvez modifier ces paramètres à tout moment."
@@ -94,5 +94,8 @@
   },
   "popup_newTab": {
     "message": "Nouvel onglet"
+  },
+  "ui_enabled": {
+    "message": "Activer l’extension"
   }
 }

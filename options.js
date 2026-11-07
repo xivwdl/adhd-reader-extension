@@ -96,6 +96,29 @@ document.addEventListener('DOMContentLoaded', () => {
   const ready = document.getElementById('ready');
   if (ready) ready.addEventListener('click', () => window.close());
 
+  const enabledToggle = document.getElementById('extension-enabled-toggle');
+  if (enabledToggle) {
+    chrome.storage.local.get(['enabled'], data => {
+      enabledToggle.checked = data.enabled !== false;
+    });
+    enabledToggle.addEventListener('change', () => {
+      const enabled = enabledToggle.checked;
+      enabledToggle.disabled = true;
+      chrome.runtime.sendMessage({ action: 'setExtensionStatus', enabled }, response => {
+        enabledToggle.disabled = false;
+        if (chrome.runtime.lastError || !response || !response.success) {
+          enabledToggle.checked = !enabled;
+          showError('saveError');
+        }
+      });
+    });
+    chrome.storage.onChanged.addListener((changes, namespace) => {
+      if (namespace === 'local' && changes.enabled) {
+        enabledToggle.checked = changes.enabled.newValue !== false;
+      }
+    });
+  }
+
   // --- Initial Load ---
   chrome.storage.sync.get(['siteList', 'fontType', 'listMode'], (data) => {
     renderPage(data);

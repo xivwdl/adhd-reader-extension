@@ -69,4 +69,4 @@
 
 /* Keep welcome text together without changing the settings page spacing. */
 .welcome-intro { display: grid; gap: 8px; margin-bottom: 8px; }
-.welcome-finish { display: grid; gap: 12px; margin-top: 4px; }
+.welcome-finish { display: grid; gap: 12px; margin-top: -8px; }

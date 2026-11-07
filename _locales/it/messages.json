@@ -60,7 +60,7 @@
     "message": "Salvataggio non riuscito. Riprova."
   },
   "ui_ready": {
-    "message": "Inizia a leggere"
+    "message": "Salva e inizia a leggere"
   },
   "ui_later": {
     "message": "Puoi modificare queste impostazioni in qualsiasi momento."
@@ -94,5 +94,8 @@
   },
   "popup_newTab": {
     "message": "Nuova scheda"
+  },
+  "ui_enabled": {
+    "message": "Attiva estensione"
   }
 }

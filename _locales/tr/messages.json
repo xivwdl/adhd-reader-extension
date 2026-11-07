@@ -60,7 +60,7 @@
     "message": "Kaydedilemedi. Tekrar deneyin."
   },
   "ui_ready": {
-    "message": "Okumaya başla"
+    "message": "Kaydet ve okumaya başla"
   },
   "ui_later": {
     "message": "Bu ayarları istediğiniz zaman değiştirebilirsiniz."
@@ -94,5 +94,8 @@
   },
   "popup_newTab": {
     "message": "Yeni sekme"
+  },
+  "ui_enabled": {
+    "message": "Uzantıyı etkinleştir"
   }
 }
