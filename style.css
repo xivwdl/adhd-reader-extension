@@ -1,12 +1,12 @@
 @font-face {
   font-family: "FastSans";
-  src: url(https://raw.githubusercontent.com/Born2Root/Fast-Font/main/Fast_Sans.ttf)
+  src: url(chrome-extension://__MSG_@@extension_id__/fonts/Fast_Sans.ttf)
     format('truetype');
 }
 
 @font-face {
   font-family: "FastSerif";
-  src: url(https://raw.githubusercontent.com/Born2Root/Fast-Font/main/Fast_Serif.ttf)
+  src: url(chrome-extension://__MSG_@@extension_id__/fonts/Fast_Serif.ttf)
     format('truetype');
 }
 
