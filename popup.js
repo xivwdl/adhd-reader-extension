@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
   let isEnabled = true;
 
   function updateGlobalToggleUI(enabled) {
+    const label = enabled ? "Pause extension" : "Resume extension";
+    globalToggleBtn.title = label;
+    globalToggleBtn.setAttribute("aria-label", label);
     if (enabled) {
       globalToggleIcon.classList.remove('icon-play');
       globalToggleIcon.classList.add('icon-pause');
@@ -71,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // --- Site-specific Blacklist/Whitelist Logic ---
   chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-    if (tabs[0] && tabs[0].url && tabs[0].url.startsWith('http')) {
+    if (tabs[0] && tabs[0].url && /^https?:\/\//.test(tabs[0].url)) {
       const currentHost = new URL(tabs[0].url).hostname;
       
       chrome.storage.sync.get(['listMode', 'siteList'], (data) => {
@@ -118,6 +121,9 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     } else {
       siteActiveToggle.disabled = true;
+      siteActiveToggle.checked = false;
+      siteStatusLabel.textContent = 'Extension is unavailable on this page';
+      note.textContent = 'Open a website to use ADHD Reader.';
     }
   });
 
