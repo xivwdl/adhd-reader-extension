@@ -67,5 +67,32 @@
   },
   "ui_remove": {
     "message": "Удалить сайт"
+  },
+  "popup_pause": {
+    "message": "Приостановить расширение"
+  },
+  "popup_resume": {
+    "message": "Возобновить работу"
+  },
+  "popup_openSettings": {
+    "message": "Открыть настройки"
+  },
+  "popup_refresh": {
+    "message": "Если что-то не работает, обновите страницу и попробуйте снова"
+  },
+  "popup_enabled": {
+    "message": "Расширение включено на этом сайте"
+  },
+  "popup_disabled": {
+    "message": "Расширение отключено на этом сайте"
+  },
+  "popup_extensionPage": {
+    "message": "Страница расширения"
+  },
+  "popup_browserPage": {
+    "message": "Страница браузера"
+  },
+  "popup_newTab": {
+    "message": "Новая вкладка"
   }
 }

@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+  SettingsUI.localize();
+  const message = key => chrome.i18n.getMessage('popup_' + key);
   // UI Elements
   const globalToggleBtn = document.getElementById('global-toggle-btn');
   const settingsBtn = document.getElementById('settings-btn');
@@ -9,10 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const siteStatusLabel = document.getElementById('site-status-label');
   const note = document.querySelector('.note');
 
+  settingsBtn.title = message('openSettings');
   let isEnabled = true;
 
   function updateGlobalToggleUI(enabled) {
-    const label = enabled ? "Pause extension" : "Resume extension";
+    const label = message(enabled ? 'pause' : 'resume');
     globalToggleBtn.title = label;
     globalToggleBtn.setAttribute("aria-label", label);
     if (enabled) {
@@ -42,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function updateSiteStatusLabel(isActive) {
     if (siteStatusLabel) {
-      siteStatusLabel.innerHTML = `Extension is ${isActive ? 'enabled' : 'disabled'} <br> on this website`;
+      siteStatusLabel.textContent = message(isActive ? 'enabled' : 'disabled');
     }
   }
 
@@ -131,11 +134,11 @@ document.addEventListener('DOMContentLoaded', function() {
           let urlString = tabs[0].url;
           let host = '';
           if (urlString.startsWith('chrome-extension://')) {
-            host = 'Extension page';
+            host = message('extensionPage');
           } else if (urlString.startsWith('chrome://') || urlString.startsWith('edge://')) {
-            host = 'Browser page';
+            host = message('browserPage');
           } else if (urlString.startsWith('about:')) {
-            host = 'New tab';
+            host = message('newTab');
           } else {
             try {
               let url = new URL(urlString);

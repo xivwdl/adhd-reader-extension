@@ -67,5 +67,32 @@
   },
   "ui_remove": {
     "message": "Eliminar sitio"
+  },
+  "popup_pause": {
+    "message": "Pausar extensión"
+  },
+  "popup_resume": {
+    "message": "Reanudar extensión"
+  },
+  "popup_openSettings": {
+    "message": "Abrir ajustes"
+  },
+  "popup_refresh": {
+    "message": "Si algo no funciona, actualiza la página e inténtalo de nuevo"
+  },
+  "popup_enabled": {
+    "message": "La extensión está activada en este sitio"
+  },
+  "popup_disabled": {
+    "message": "La extensión está desactivada en este sitio"
+  },
+  "popup_extensionPage": {
+    "message": "Página de la extensión"
+  },
+  "popup_browserPage": {
+    "message": "Página del navegador"
+  },
+  "popup_newTab": {
+    "message": "Nueva pestaña"
   }
 }

@@ -67,5 +67,32 @@
   },
   "ui_remove": {
     "message": "Видалити сайт"
+  },
+  "popup_pause": {
+    "message": "Призупинити розширення"
+  },
+  "popup_resume": {
+    "message": "Відновити роботу"
+  },
+  "popup_openSettings": {
+    "message": "Відкрити налаштування"
+  },
+  "popup_refresh": {
+    "message": "Якщо щось не працює, оновіть сторінку та спробуйте ще раз"
+  },
+  "popup_enabled": {
+    "message": "Розширення ввімкнено на цьому сайті"
+  },
+  "popup_disabled": {
+    "message": "Розширення вимкнено на цьому сайті"
+  },
+  "popup_extensionPage": {
+    "message": "Сторінка розширення"
+  },
+  "popup_browserPage": {
+    "message": "Сторінка браузера"
+  },
+  "popup_newTab": {
+    "message": "Нова вкладка"
   }
 }

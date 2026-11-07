@@ -67,5 +67,32 @@
   },
   "ui_remove": {
     "message": "Remove site"
+  },
+  "popup_pause": {
+    "message": "Pause extension"
+  },
+  "popup_resume": {
+    "message": "Resume extension"
+  },
+  "popup_openSettings": {
+    "message": "Open settings"
+  },
+  "popup_refresh": {
+    "message": "If something isn’t working, please refresh the page and try again"
+  },
+  "popup_enabled": {
+    "message": "Extension is enabled on this website"
+  },
+  "popup_disabled": {
+    "message": "Extension is disabled on this website"
+  },
+  "popup_extensionPage": {
+    "message": "Extension page"
+  },
+  "popup_browserPage": {
+    "message": "Browser page"
+  },
+  "popup_newTab": {
+    "message": "New tab"
   }
 }

@@ -117,6 +117,7 @@
     .switch {
       position: relative;
       display: inline-block;
+      flex-shrink: 0;
       width: 48px;
       height: 26px;
     }
@@ -204,23 +205,23 @@
       <button id="global-toggle-btn" class="icon-button" title="Pause extension" aria-label="Pause extension">
         <span id="global-toggle-icon" class="icon-display"></span>
       </button>
-      <button id="settings-btn" class="icon-button" title="Open settings" aria-label="Open settings">
+      <button data-i18n-label="popup_openSettings" id="settings-btn" class="icon-button" title="Open settings" aria-label="Open settings">
         <span class="icon-display icon-gear"></span>
       </button>
     </div>
   </div>
 
   <div id="current-site"></div>
-  <div class="note">
+  <div class="note" data-i18n="popup_refresh">
     If something isn't working, please <br>refresh the page and try again
   </div>
   
 
   <div id="main-controls">
     <div class="form-group">
-      <span class="form-label" id="site-status-label">Extension is enabled <br> on this website</span>
+      <span class="form-label" data-i18n="popup_enabled" id="site-status-label">Extension is enabled <br> on this website</span>
       <label class="switch">
-        <input type="checkbox" id="site-active-toggle">
+        <input type="checkbox" aria-labelledby="site-status-label" id="site-active-toggle">
         <span class="slider"></span>
       </label>
     </div>
@@ -229,6 +230,7 @@
   <div class="footer">
     <a href="https://d1ma.xyz/" target="_blank" rel="noopener noreferrer">made by d1ma.xyz</a>
   </div>
+  <script src="settings-common.js"></script>
   <script src="popup.js"></script>
 </body>
 </html> 

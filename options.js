@@ -62,7 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
     blacklistLabel.classList.toggle('is-active', !isWhitelist);
     whitelistLabel.classList.toggle('is-active', isWhitelist);
     siteListTitle.textContent = SettingsUI.message(isWhitelist ? 'included' : 'excluded');
-    document.getElementById('mode-help').textContent = SettingsUI.message(isWhitelist ? 'included' : 'excluded');
   }
 
   function renderPage(data) {

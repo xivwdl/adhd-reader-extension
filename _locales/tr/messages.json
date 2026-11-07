@@ -67,5 +67,32 @@
   },
   "ui_remove": {
     "message": "Siteyi kaldır"
+  },
+  "popup_pause": {
+    "message": "Uzantıyı duraklat"
+  },
+  "popup_resume": {
+    "message": "Uzantıyı sürdür"
+  },
+  "popup_openSettings": {
+    "message": "Ayarları aç"
+  },
+  "popup_refresh": {
+    "message": "Bir şey çalışmıyorsa sayfayı yenileyip tekrar deneyin"
+  },
+  "popup_enabled": {
+    "message": "Uzantı bu sitede etkin"
+  },
+  "popup_disabled": {
+    "message": "Uzantı bu sitede devre dışı"
+  },
+  "popup_extensionPage": {
+    "message": "Uzantı sayfası"
+  },
+  "popup_browserPage": {
+    "message": "Tarayıcı sayfası"
+  },
+  "popup_newTab": {
+    "message": "Yeni sekme"
   }
 }

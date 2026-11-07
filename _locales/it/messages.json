@@ -67,5 +67,32 @@
   },
   "ui_remove": {
     "message": "Rimuovi sito"
+  },
+  "popup_pause": {
+    "message": "Metti in pausa l’estensione"
+  },
+  "popup_resume": {
+    "message": "Riattiva l’estensione"
+  },
+  "popup_openSettings": {
+    "message": "Apri impostazioni"
+  },
+  "popup_refresh": {
+    "message": "Se qualcosa non funziona, aggiorna la pagina e riprova"
+  },
+  "popup_enabled": {
+    "message": "L’estensione è attiva su questo sito"
+  },
+  "popup_disabled": {
+    "message": "L’estensione è disattivata su questo sito"
+  },
+  "popup_extensionPage": {
+    "message": "Pagina dell’estensione"
+  },
+  "popup_browserPage": {
+    "message": "Pagina del browser"
+  },
+  "popup_newTab": {
+    "message": "Nuova scheda"
   }
 }
